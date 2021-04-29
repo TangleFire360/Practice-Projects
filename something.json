@@ -15,7 +15,7 @@
 
   "CreateEntity": {
     "key":"herbalist",
-    "name": ["&5&l[name]","&8&oFallen Kingdom Herbalist"],
+    "name": ["&5&lMaggie","&8&oFallen Kingdom Herbalist"],
     "skin": "fallen_farmer",
     "location": [2035.5,22.0,621.5,-179],
     "global": false
@@ -23,9 +23,9 @@
 
   "Store": [
     "location",
-    "HEY! LISTEN!"
+    "2035, 22, 621"
   ],
-
+  
   "Dialog": [
     {
       "&d&lWillie B.": "The last raid was a rough one, and it seems that some people had property get destroyed in the attack.",
@@ -35,7 +35,7 @@
     },
     false
   ],
-  "SendMessageOptions": ["&2&lSure","&a&lNah"],
+  "SendMessageOptions": ["&2&lSure","&c&lNah"],
   "Skip": "Yes",
   "Skip": "No",
 

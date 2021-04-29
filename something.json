@@ -5,7 +5,7 @@
   "Author": "TangleFire360",
   "Quest": true,
   "Icon": {
-    "material": "allium"
+    "material": "potato"
   },
 
   "Store": [
@@ -25,7 +25,7 @@
     "location",
     "2035, 22, 621"
   ],
-  
+
   "Dialog": [
     {
       "&d&lWillie B.": "The last raid was a rough one, and it seems that some people had property get destroyed in the attack.",

@@ -8,6 +8,11 @@
     "material": "allium"
   },
 
+  "Store": [
+    "name",
+    "Maggie"
+  ],
+
   "CreateEntity": {
     "key":"herbalist",
     "name": ["&5&l[name]","&8&oFallen Kingdom Herbalist"],
@@ -15,11 +20,6 @@
     "location": [2035.5,22.0,621.5,-179],
     "global": false
   },
-
-  "Store": [
-    "name",
-    "Maggie"
-  ],
 
   "Store": [
     "location",

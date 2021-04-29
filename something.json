@@ -1,0 +1,131 @@
+{
+  "Key": "garden_troubles",
+  "Name": "&aGarden Trouble",
+  "Description": "",
+  "Author": "TangleFire360",
+  "Quest": true,
+  "Icon": {
+    "material": "allium"
+  },
+
+  "CreateEntity": {
+    "key":"herbalist",
+    "name": ["&5&l[name]","&8&oFallen Kingdom Herbalist"],
+    "skin": "fallen_farmer",
+    "location": [2035.5,22.0,621.5,-179],
+    "global": false
+  },
+
+  "Store": [
+    "name",
+    "Maggie"
+  ],
+
+  "Store": [
+    "location",
+    "HEY! LISTEN!"
+  ],
+
+  "Dialog": [
+    {
+      "&d&lWillie B.": "The last raid was a rough one, and it seems that some people had property get destroyed in the attack.",
+      "&d&lWillie B.": "We’ve seen most of them rebuilding, but the herbalist, &5&l[name]&f, doesn’t seem to have enough time.",
+      "&d&lWillie B.": "On the way to work this morning, I saw a huge chunk of her garden in ashes.",
+      "&d&lWillie B.": "Do you mind checking up on her at &c&l[location]&f to see if she wants some help?"
+    },
+    false
+  ],
+  "SendMessageOptions": ["&2&lSure","&a&lNah"],
+  "Skip": "Yes",
+  "Skip": "No",
+
+
+  "Comment": "No",
+  "Dialog": [
+    {
+      "&d&lWillie B.": "Well, I had hoped you could help [name], since she does so much to help the people here.",
+      "&d&lWillie B.": "I guess I’ll find someone else then."
+    },
+    false
+  ],
+  "Wait": 1,
+  "Leave": [],
+
+  "Comment": "Yes",
+  "HighlightClickEntity": "herbalist",
+  "Wait": 1,
+
+  "Dialog": [
+    {
+      "&5&l[name]": "Oh sorry, but I’m out of-",
+      "&5&l[name]": "Wait a second, you’re not here for any medicine?",
+      "&5&l[name]": "Willie sent you to help me with my garden?",
+      "&5&l[name]": "That’s fantastic! I could really use the help.",
+      "&5&l[name]": "Believe it or not, the biggest part of my garden that got destroyed was the part with my potatoes in it.",
+      "&5&l[name]": "Do you mind bringing me &c&l64 potatoes&f?"
+    },
+    false
+  ],
+  "Hold": [],
+  "Wait": 1,
+
+  "HighlightClickEntity": "herbalist",
+  "Wait": 1,
+
+  "Dialog":[
+    {
+      "&5&l[name]": "Ah, thank you!",
+      "&5&l[name]": "While you were out, I was looking through my stores of medicine and noticed that all the sugar is gone",
+      "&5&l[name]": "I use it to help make some of my medicines a little more pleasant for children, or they wouldn’t take them like they should.",
+      "&5&l[name]": "Normally I grow some sugarcane in my garden...but it’s still quite messy right now.",
+      "&5&l[name]": "If you could get me &c&l96 Sugarcane&f I can start to replenish my supply."
+    },
+    false
+  ],
+  "Hold": [],
+  "Wait": 1,
+
+  "HighlightClickEntity": "herbalist",
+  "Wait": 1,
+
+  "Dialog": [
+    {
+      "&5&l[name]": "Good job, this is plenty for both sugar and a start to a new sugarcane patch in the garden.",
+      "&5&l[name]": "Say, you’ve helped me out a lot, but can I ask for one more favor?",
+      "&5&l[name]": "I use the juice of sweet berries for some of my concoctions as well.",
+      "&5&l[name]": "My berry bushes are still intact, but I’ve used all my berries for medicine.",
+      "&5&l[name]": "Get me &c&l128 sweet berries&f and then I should be all caught up!"
+    },
+    false
+  ],
+  "Hold": [],
+  "Wait": 1,
+
+  "HighlightClickEntity": "herbalist",
+  "Wait": 1,
+
+  "Dialog": [
+    {
+      "&5&l[name]": "You got them!",
+      "&5&l[name]": "This will be plenty, and I won’t have to worry about it for a while thanks to you.",
+      "&5&l[name]": "Thank you for all your help, we’re lucky to have you around!"
+    },
+    false
+  ],
+
+  "HighlightClickEntity": "herbalist",
+  "Wait": 1,
+
+  "Dialog": [
+    {
+      "&5&l[name]": "Well, I'll remember to ask for you if I need help again sometime.",
+      "&5&l[name]": "Oh, and since it's dangerous to go alone out there, take this!"
+    },
+    false
+  ],
+  "Hold": [],
+  "Wait": 1,
+
+  "KingdomCompleteQuest": []
+
+}

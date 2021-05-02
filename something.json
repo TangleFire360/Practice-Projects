@@ -1,12 +1,12 @@
 {
   "Key": "garden_troubles",
-  "Name": "&aGarden Trouble",
+    "Name": "&aGarden Trouble",
   "Description": "",
-  "Author": "TangleFire360",
+    "Author": "TangleFire360",
   "Quest": true,
-  "Icon": {
-    "material": "potato"
-  },
+    "Icon": {
+      "material": "potato"
+    },
 
   "Store": [
     "name",

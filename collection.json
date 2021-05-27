@@ -140,7 +140,7 @@
   ],
 
   "HighlightClickEntity": [
-    "[name]",
+    "[name]"
   ],
 
   "Comment": "spruce loop",
@@ -179,6 +179,10 @@
     false
   ],
 
+  "HighlightClickEntity": [
+    "[name]"
+  ],
+
   "Comment": "birch loop",
   "If": [],
   "HasItem": [{
@@ -212,6 +216,10 @@
       "[name]": "Go ahead and grab [128 jungle logs] for me."
     },
     false
+  ],
+
+  "HighlightClickEntity": [
+    "[name]"
   ],
 
   "Comment": "jungle loop",
@@ -250,6 +258,10 @@
     false
   ],
 
+  "HighlightClickEntity": [
+    "[name]"
+  ],
+  
   "Dialogue": [
     {
       "[name]": "Here, take this, and I’ll be sure to let you know if I need more help later!"

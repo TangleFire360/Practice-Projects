@@ -261,7 +261,7 @@
   "HighlightClickEntity": [
     "[name]"
   ],
-  
+
   "Dialogue": [
     {
       "[name]": "Here, take this, and I’ll be sure to let you know if I need more help later!"
@@ -270,4 +270,4 @@
   ],
 
   "CompleteKingdomQuest": []
-},
+}

@@ -11,8 +11,8 @@
   "CreateEntity": {
     "key": "fallen_housekeeper",
     "name": ["Ciara"],
-    "skin": "",
-    "location": [],
+    "skin": "fallen_farmer",
+    "location": [2001.5,29,587.5,0],
     "global": false
   },
 

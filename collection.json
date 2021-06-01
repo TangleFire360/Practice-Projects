@@ -7,6 +7,7 @@
     "Icon": {
       "material": "oak_log"
     },
+  "ShowReward": "&l10,000 Gold, 4 Chests",
 
   "CreateEntity": {
     "key": "fallen_housekeeper",
@@ -255,7 +256,7 @@
     false
   ],
 
-  "Start":[
+  "Start": [
     "collection_reward"
   ],
 

@@ -1,7 +1,7 @@
 {
   "Key": "wood_collection",
     "Name": "Wood Collection",
-  "Description": "",
+  "Description": "William's busy assistant Ciara needs wood for the castle. Collect some from the mines for her.",
     "Author": "TangleFire360",
   "Quest": true,
     "Icon": {
@@ -255,5 +255,10 @@
     false
   ],
 
+  "Start":[
+    "collection_reward"
+  ],
+
   "CompleteKingdomQuest": []
+
 }

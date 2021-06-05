@@ -91,7 +91,7 @@
   "Dialog": [
     {
       "&d&l[name]": "Ah this is a good start.",
-      "&d&l[name]": "Okay, next on my list, I need &4&l[48 acacia logs]&f."
+      "&d&l[name]": "Okay, next on my list, I need &4&l[32 acacia logs]&f."
     },
     false
   ],
@@ -102,7 +102,7 @@
   "If": [],
   "HasItem": [{
     "material": "acacia_log",
-    "amount": "48"
+    "amount": "32"
     }],
   "Skip": "Got Acacia",
   "Skip": "No Acacia For You",
@@ -113,7 +113,7 @@
       "&d&l[name]": "Do you even know where acacia is?",
       "&d&l[name]": "The same miners that told me about the oak logs say that acacia is all over the place too.",
       "&d&l[name]": "They said it’s annoying, since it blends in with the stone and messes up their drills and such.",
-      "&d&l[name]": "Don't forget that I need &4&l[48 acacia]&f."
+      "&d&l[name]": "Don't forget that I need &4&l[32 acacia]&f."
     },
     false
   ],
@@ -122,14 +122,14 @@
   "Comment": "Got Acacia",
   "TakeItem": [{
     "material": "acacia_log",
-    "amount": "48"
+    "amount": "32"
     }],
 
   "Dialog": [
     {
       "&d&l[name]": "Good, this is great, even if the wood looks like a bunch of carrots.",
       "&d&l[name]": "Now I can see why others might’ve been letting you help them out!",
-      "&d&l[name]": "Okay, next up is spruce, go grab &4&l[64 spruce logs]&f for me."
+      "&d&l[name]": "Okay, next up is spruce, go grab &4&l[32 spruce logs]&f for me."
     },
     false
   ],
@@ -140,7 +140,7 @@
   "If": [],
   "HasItem": [{
     "material": "spruce_log",
-    "amount": "64"
+    "amount": "32"
     }],
   "Skip": "Got Spruce",
   "Skip": "No Spruce For You",
@@ -150,7 +150,7 @@
     {
       "&d&l[name]": "Hmm...not sure where spruce logs are or something?",
       "&d&l[name]": "I’ve only been in the mines once, but I saw some around the top edge at the portal that looked like they could be reached…",
-      "&d&l[name]": "Remember, I need &4&l[64 spruce logs]&f to have enough!"
+      "&d&l[name]": "Remember, I need &4&l[32 spruce logs]&f to have enough!"
     },
     false
   ],
@@ -159,7 +159,7 @@
   "Comment": "Got Spruce",
   "TakeItem": [{
     "material": "spruce_log",
-    "amount": "64"
+    "amount": "32"
     }],
 
   "Dialog": [
@@ -167,7 +167,7 @@
       "&d&l[name]": "Well, you must really know where things are in the mines.",
       "&d&l[name]": "Only two more types of wood, got it?",
       "&d&l[name]": "Go ahead and start looking for birch logs.",
-      "&d&l[name]": "I think &4&l[96 birch logs]&f should be enough."
+      "&d&l[name]": "I think &4&l[32 birch logs]&f should be enough."
     },
     false
   ],
@@ -178,7 +178,7 @@
   "If": [],
   "HasItem": [{
     "material": "birch_log",
-    "amount": "96"
+    "amount": "32"
     }],
   "Skip": "Got Birch",
   "Skip": "No Birch For You",
@@ -188,7 +188,7 @@
     {
       "&d&l[name]": "I get that this is the hardest task I’ve given you so far, but you can get that much pretty quickly from what I’ve heard.",
       "&d&l[name]": "They say there’s a big pile of birch over by where Rick’s body was found, at the pond.",
-      "&d&l[name]": "Make sure you get &4&l[96 birch logs]&f while you’re there."
+      "&d&l[name]": "Make sure you get &4&l[32 birch logs]&f while you’re there."
     },
     false
   ],
@@ -197,14 +197,14 @@
   "Comment": "Got Birch",
   "TakeItem": [{
     "material": "birch_log",
-    "amount": "96"
+    "amount": "32"
     }],
 
   "Dialog": [
     {
       "&d&l[name]": "Excellent, this is sure to be enough birch to last a long time.",
       "&d&l[name]": "One last thing before you go, I’m still short of some wood.",
-      "&d&l[name]": "Go ahead and grab &4&l[128 jungle logs]&f for me."
+      "&d&l[name]": "Go ahead and grab &4&l[32 jungle logs]&f for me."
     },
     false
   ],
@@ -215,7 +215,7 @@
   "If": [],
   "HasItem": [{
     "material": "jungle_log",
-    "amount": "128"
+    "amount": "32"
     }],
   "Skip": "Got Jungle",
   "Skip": "No Jungle For You",
@@ -226,7 +226,7 @@
       "&d&l[name]": "Yeah, I know jungle logs are harder to get, but we need a lot.",
       "&d&l[name]": "Rick Jr once told me that he saw some in the tunnels over by the pond.",
       "&d&l[name]": "He also said they were kind of, well protected, and there weren’t very many, so be careful.",
-      "&d&l[name]": "Just bring me &4&l[128 jungle logs]&f and then you’re done."
+      "&d&l[name]": "Just bring me &4&l[32 jungle logs]&f and then you’re done."
     },
     false
   ],
@@ -235,7 +235,7 @@
   "Comment": "Got Jungle",
   "TakeItem": [{
     "material": "jungle_log",
-    "amount": "128"
+    "amount": "32"
     }],
 
   "Dialog": [

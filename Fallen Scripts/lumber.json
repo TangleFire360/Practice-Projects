@@ -9,7 +9,7 @@
 
   "CreateEntity": {
     "key": "lumberjack",
-    "name": "&4&lNelson",
+    "name": "[&4&lNelson, &7Fallen Lumberjack]",
     "location": [2340.5,71,469.5],
     "global": false
   },

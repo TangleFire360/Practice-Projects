@@ -4,16 +4,13 @@
   "Description":"",
   "Author": "TangleFire360",
   "Quest": true,
-  "Icon": {
-    "material": "oak_log"
-  },
+
   "AllowRejoining": true,
-  "ShowReward":"&e&l10,000 Kingdom Gold",
 
   "CreateEntity": {
     "key": "lumberjack",
     "name": "&4&lNelson",
-    "location": [],
+    "location": [2340.5,71,469.5],
     "global": false
   },
 

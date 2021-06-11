@@ -9,7 +9,7 @@
 
   "CreateEntity": {
     "key": "lumberjack",
-    "name": "[&4&lNelson, &7Fallen Lumberjack]",
+    "name": "&4&lNelson",
     "location": [2340.5,71,469.5],
     "global": false
   },
@@ -30,7 +30,7 @@
     },
     false
   ],
-  "SendMessageOptions": ["Uh sure", "I don't need wood!"],
+  "SendMessageOptions": ["&2&lUh sure", "&4&lI don't need wood!"],
   "Skipto": "yes",
   "Skipto": "no",
 
@@ -252,6 +252,8 @@
       "&4&l[name]": "well, if you go to Nicole's Artisan Shop in the hub, she sells leaves.",
       "&4&l[name]": "If you get lucky, you can get a sapling by breaking just a few leaves, but it can take quite a few sometimes.",
       "&4&l[name]": "It gets really expensive really quick if you're not lucky, so it's always good to know where you can find wood around here."
+
+
     },
     false
   ],
@@ -268,7 +270,7 @@
   ],
 
   "Start": [
-
+    "finding_lumber_rewards"
   ],
 
   "CompleteKingdomQuest":[]

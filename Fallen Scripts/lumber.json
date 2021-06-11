@@ -60,8 +60,8 @@
   "Comment": "Oak Loop",
   "SetPersistant": ["oak", 0],
   "If":[],
-  "Equals":["oak",>=,32],
-  "Equals":["oak",<,32],
+  "Equals":["oak",">=",32],
+  "Equals":["oak","<",32],
 
   "BreakBlock": {
     "material": "oak_log"
@@ -98,8 +98,8 @@
   "Comment": "Acacia Loop",
   "SetPersistant": ["acacia", 0],
   "If":[],
-  "Equals":["acacia",>=,32],
-  "Equals":["acacia",<,32],
+  "Equals":["acacia",">=",32],
+  "Equals":["acacia","<",32],
 
   "BreakBlock": {
     "material": "acacia_log"
@@ -135,8 +135,8 @@
   "Comment": "Dark Oak Loop",
   "SetPersistant": ["dark_oak", 0],
   "If":[],
-  "Equals":["dark_oak",>=,32],
-  "Equals":["dark_oak",<,32],
+  "Equals":["dark_oak",">=",32],
+  "Equals":["dark_oak","<",32],
 
   "BreakBlock": {
     "material": "dark_oak_log"
@@ -173,8 +173,8 @@
   "Comment": "Spruce Loop",
   "SetPersistant": ["spruce", 0],
   "If":[],
-  "Equals":["spruce",>=,32],
-  "Equals":["spruce",<,32],
+  "Equals":["spruce",">=",32],
+  "Equals":["spruce","<",32],
 
   "BreakBlock": {
     "material": "spruce_log"
@@ -212,8 +212,8 @@
   "Comment": "Birch Loop",
   "SetPersistant": ["birch", 0],
   "If":[],
-  "Equals":["birch",>=,32],
-  "Equals":["birch",<,32],
+  "Equals":["birch",">=",32],
+  "Equals":["birch","<",32],
 
   "BreakBlock": {
     "material": "birch_log"
@@ -255,8 +255,8 @@
   "Comment": "Jungle Loop",
   "SetPersistant": ["jungle", 0],
   "If":[],
-  "Equals":["jungle",>=,32],
-  "Equals":["jungle",<,32],
+  "Equals":["jungle",">=",32],
+  "Equals":["jungle","<",32],
 
   "BreakBlock": {
     "material": "jungle_log"

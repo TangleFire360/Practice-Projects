@@ -58,11 +58,17 @@
   "HighlightClickEntity": "lumberjack",
 
   "Comment": "Oak Loop",
+  "SetPersistant": ["oak", 0],
   "If":[],
+  "Equals":["oak",>=,32],
+  "Equals":["oak",<,32],
+
   "BreakBlock": {
-    "material": "oak_log",
-    "amount": "32"
+    "material": "oak_log"
   },
+  "AddPersistant": ["oak", 1],
+  "Wait": 1,
+
   "Skip": "got oak",
   "Skip": "not enough oak",
 
@@ -90,11 +96,17 @@
   "HighlightClickEntity": "lumberjack",
 
   "Comment": "Acacia Loop",
+  "SetPersistant": ["acacia", 0],
   "If":[],
+  "Equals":["acacia",>=,32],
+  "Equals":["acacia",<,32],
+
   "BreakBlock": {
-    "material": "acacia_log",
-    "amount": "32"
+    "material": "acacia_log"
   },
+  "AddPersistant": ["acacia", 1],
+  "Wait": 1,
+
   "Skip": "got acacia",
   "Skip": "not enough acacia",
 
@@ -121,11 +133,17 @@
   "HighlightClickEntity": "lumberjack",
 
   "Comment": "Dark Oak Loop",
+  "SetPersistant": ["dark_oak", 0],
   "If":[],
+  "Equals":["dark_oak",>=,32],
+  "Equals":["dark_oak",<,32],
+
   "BreakBlock": {
-    "material": "dark_oak_log",
-    "amount": "32"
+    "material": "dark_oak_log"
   },
+  "AddPersistant": ["dark_oak", 1],
+  "Wait": 1,
+
   "Skip": "got dark oak",
   "Skip": "not enough dark oak",
 
@@ -153,11 +171,17 @@
   "HighlightClickEntity": "lumberjack",
 
   "Comment": "Spruce Loop",
+  "SetPersistant": ["spruce", 0],
   "If":[],
+  "Equals":["spruce",>=,32],
+  "Equals":["spruce",<,32],
+
   "BreakBlock": {
-    "material": "spruce_log",
-    "amount": "32"
+    "material": "spruce_log"
   },
+  "AddPersistant": ["spruce", 1],
+  "Wait": 1,
+
   "Skip": "got spruce",
   "Skip": "not enough spruce",
 
@@ -186,11 +210,17 @@
   ],
 
   "Comment": "Birch Loop",
+  "SetPersistant": ["birch", 0],
   "If":[],
+  "Equals":["birch",>=,32],
+  "Equals":["birch",<,32],
+
   "BreakBlock": {
-    "material": "birch_log",
-    "amount": "32"
+    "material": "birch_log"
   },
+  "AddPersistant": ["birch", 1],
+  "Wait": 1,
+
   "Skip": "got birch",
   "Skip": "not enough birch",
 
@@ -223,11 +253,17 @@
   "HighlightClickEntity": "lumberjack",
 
   "Comment": "Jungle Loop",
+  "SetPersistant": ["jungle", 0],
   "If":[],
+  "Equals":["jungle",>=,32],
+  "Equals":["jungle",<,32],
+
   "BreakBlock": {
-    "material": "jungle_log",
-    "amount": "32"
+    "material": "jungle_log"
   },
+  "AddPersistant": ["jungle", 1],
+  "Wait": 1,
+
   "Skip": "got jungle",
   "Skip": "not enough jungle",
 

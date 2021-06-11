@@ -1,0 +1,11 @@
+{
+  "ServerType": "mines",
+  "Key": "finding_lumber_rewards",
+  "Name": "Finding_Lumber_Rewards",
+
+  "GiveKingdomGold": [10000],
+  "GiveItem": {
+    "material": "chest",
+    "amount": 4
+  }
+}

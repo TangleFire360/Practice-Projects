@@ -49,9 +49,9 @@
   "Equals":["oak",">=",32],
   "Equals":["oak","<",32],
 
-  "BreakBlock": {
+  "BreakBlock": [
     "material": "oak_log"
-  },
+  ],
   "AddPersistent": ["oak", 1],
   "Wait": 1,
 
@@ -78,9 +78,9 @@
   "Equals":["acacia",">=",32],
   "Equals":["acacia","<",32],
 
-  "BreakBlock": {
+  "BreakBlock": [
     "material": "acacia_log"
-  },
+  ],
   "AddPersistent": ["acacia", 1],
   "Wait": 1,
 
@@ -106,9 +106,9 @@
   "Equals":["dark_oak",">=",32],
   "Equals":["dark_oak","<",32],
 
-  "BreakBlock": {
+  "BreakBlock": [
     "material": "dark_oak_log"
-  },
+  ],
   "AddPersistent": ["dark_oak", 1],
   "Wait": 1,
 
@@ -136,9 +136,9 @@
   "Equals":["spruce",">=",32],
   "Equals":["spruce","<",32],
 
-  "BreakBlock": {
+  "BreakBlock": [
     "material": "spruce_log"
-  },
+  ],
   "AddPersistent": ["spruce", 1],
   "Wait": 1,
 
@@ -167,9 +167,9 @@
   "Equals":["birch",">=",32],
   "Equals":["birch","<",32],
 
-  "BreakBlock": {
+  "BreakBlock": [
     "material": "birch_log"
-  },
+  ],
   "AddPersistent": ["birch", 1],
   "Wait": 1,
 
@@ -201,9 +201,9 @@
   "Equals":["jungle",">=",32],
   "Equals":["jungle","<",32],
 
-  "BreakBlock": {
+  "BreakBlock": [
     "material": "jungle_log"
-  },
+  ],
   "AddPersistent": ["jungle", 1],
   "Wait": 1,
 

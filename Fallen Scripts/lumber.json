@@ -22,10 +22,13 @@
   "HighlightClickEntity": "lumberjack",
 
   "Dialog": [
+    {
       "&4&l[name]": "Oh? Hello new friend!",
       "&4&l[name]": "Looking for wood are you? Well I can help with that.",
       "&4&l[name]": "There's wood all over the place here, and in all different types!",
       "&4&l[name]": "Say, why don't you explore and find out where all the different wood is?"
+    },
+    false
   ],
   "SendMessageOptions": ["&2&lUh sure", "&4&lI don't need wood!"],
   "Skipto": "yes",

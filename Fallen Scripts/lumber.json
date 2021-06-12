@@ -31,8 +31,8 @@
     false
   ],
   "SendMessageOptions": ["&2&lUh sure", "&4&lI don't need wood!"],
-  "Skip": "yes",
-  "Skip": "no",
+  "Skipto": "yes",
+  "Skipto": "no",
 
   "Comment": "no",
   "SendMessage": [

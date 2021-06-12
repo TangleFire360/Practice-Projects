@@ -21,10 +21,9 @@
 
   "HighlightClickEntity": "lumberjack",
 
-  "SendMessage": ["&4&l[name]": "Oh? Hello new friend!",]
   "Dialog": [
     {
-
+      "&4&l[name]": "Oh? Hello new friend!",
       "&4&l[name]": "Looking for wood are you? Well I can help with that.",
       "&4&l[name]": "There's wood all over the place here, and in all different types!",
       "&4&l[name]": "Say, why don't you explore and find out where all the different wood is?"
@@ -36,7 +35,7 @@
   "Skip": "no",
 
   "Comment": "no",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "What do you mean you don't need wood!? Everyone needs wood!",
       "&4&l[name]": "But if you're fine with only using what you pick up from those annoying goblins then okay...",
@@ -48,7 +47,7 @@
   "Leave":[],
 
   "Comment": "yes",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Ah good, then why don't you go get some oak logs?",
       "&4&l[name]": "You should figure out where it all is by the time you have &4&l32 Oak Logs&f."
@@ -74,7 +73,7 @@
   "Skip": "not enough oak",
 
   "Comment": "not enough oak",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Wait you don't know where the oak is around here!?",
       "&4&l[name]": "It's quite literally all over the place! The miners use it some to prop up their tunnels.",
@@ -85,7 +84,7 @@
   "Skip": "Oak Loop",
 
   "Comment": "got oak",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "That wasn't too hard was it?",
       "&4&l[name]": "Another common wood to find around here is acacia.",
@@ -112,7 +111,7 @@
   "Skip": "not enough acacia",
 
   "Comment": "not enough acacia",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "That's not enough for you to have found &4&l32 Acacia Logs&f",
       "&4&l[name]": "It's all around the walls of these mines, the miners complain about running into wood all the time!"
@@ -122,7 +121,7 @@
   "Skip": "Acacia Loop",
 
   "Comment": "got acacia",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Blends in doesn't it? You must have good eyes.",
       "&4&l[name]": "But now it gets a little harder, the other four types of wood aren't as easy to get in large amounts.",
@@ -149,7 +148,7 @@
   "Skip": "not enough dark oak",
 
   "Comment": "not enough dark oak",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Couldn't find it ey?",
       "&4&l[name]": "Well, some of the mining equipment is made of dark oak logs, but if you don't want to destroy those then try over by the pit.",
@@ -160,7 +159,7 @@
   "Skip": "Dark Oak Loop",
 
   "Comment": "got dark oak",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Looks like you found it!",
       "&4&l[name]": "Half-way my friend, and I'll even cut you some slack and send you after spruce next.",
@@ -187,7 +186,7 @@
   "Skip": "not enough spruce",
 
   "Comment": "not enough spruce",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Huh, I thought if you could find all the others you could find spruce too.",
       "&4&l[name]": "Here I'll give you a hint.",
@@ -199,7 +198,7 @@
   "Skip": "Spruce Loop",
 
   "Comment": "got spruce",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "There may be some other spots with spruce, but those must be deeper in the mines.",
       "&4&l[name]": "Speaking of going deeper in the mines...",
@@ -228,7 +227,7 @@
   "HighlightClickEntity": "lumberjack",
 
   "Comment": "not enough birch",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "And now you see why I told you to get some tools first right?",
       "&4&l[name]": "If you want to save some time, try going to the pond.",
@@ -241,7 +240,7 @@
   "Skip": "Birch Loop",
 
   "Comment": "got birch",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Almost done friend!",
       "&4&l[name]": "I've asked a lot of you, but trust me you'll thank me for it later.",
@@ -269,7 +268,7 @@
   "Skip": "not enough jungle",
 
   "Comment": "not enough jungle",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Haven't found it yet? Don't feel too bad about that.",
       "&4&l[name]": "There's only one spot in these mines with jungle wood, in the tunnels over by the pond.",
@@ -281,7 +280,7 @@
   "Skip": "Jungle Loop",
 
   "Comment": "got jungle",
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Hey you got it!",
       "&4&l[name]": "Congrats! You've gotten a good haul of wood for your wood-based needs, and learned something along the way.",
@@ -299,7 +298,7 @@
 
   "HighlightClickEntity": "lumberjack",
 
-  "SendMessage": [
+  "Dialog": [
     {
       "&4&l[name]": "Oh yeah, here's a little something to help you store all that wood you've collected."
     },

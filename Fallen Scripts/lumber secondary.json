@@ -1,0 +1,51 @@
+{
+  "Key": "lumber_secondary",
+  "Author": "TangleFire360",
+
+  "AllowRejoining": true,
+
+  "Comment": "Not Enough",
+
+  "If":[],
+  "Equals":["loop",0],
+  "BreakBlock":["oak_log",1],
+  "Dummy":[],
+
+  "If":[],
+  "Equals":["loop",1],
+  "BreakBlock":["acacia_log",1],
+  "Dummy":[],
+
+  "If":[],
+  "Equals":["loop",2],
+  "BreakBlock":["dark_oak_log",1],
+  "Dummy":[],
+
+  "If":[],
+  "Equals":["loop",3],
+  "BreakBlock":["spruce_log",1],
+  "Dummy":[],
+
+  "If":[],
+  "Equals":["loop",4],
+  "BreakBlock":["birch_log",1],
+  "Dummy":[],
+
+  "If":[],
+  "Equals":["loop",5],
+  "BreakBlock":["jungle_log",1],
+  "Dummy":[],
+
+  "AddPersistent":["count", 1, true],
+
+  "If": [],
+  "Equals":["count", ">=", 32],
+  "Skip": "Got Wood",
+  "Skip": "Not Enough",
+
+  "Comment": "Got Wood",
+  "SetPersistent":["count", -1, true],
+  "AddPersistent": ["loop", 1, true],
+
+  "Dummy": []
+}

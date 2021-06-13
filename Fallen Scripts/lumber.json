@@ -72,9 +72,7 @@
 
   "Comment": "Acacia Loop",
   "SetPersistent": ["acacia", 0],
-  "BreakBlock": [
-    "acacia_log"
-  ],
+  "BreakBlock": ["acacia_log",1],
   "AddPersistent": ["acacia", 1],
   "Wait": 1,
 
@@ -101,9 +99,7 @@
 
   "Comment": "Dark Oak Loop",
   "SetPersistent": ["dark_oak", 0],
-  "BreakBlock": [
-    "dark_oak_log"
-  ],
+  "BreakBlock": ["dark_oak_log",1],
   "AddPersistent": ["dark_oak", 1],
   "Wait": 1,
 
@@ -132,9 +128,7 @@
 
   "Comment": "Spruce Loop",
   "SetPersistent": ["spruce", 0],
-  "BreakBlock": [
-    "spruce_log"
-  ],
+  "BreakBlock": ["spruce_log",1],
   "AddPersistent": ["spruce", 1],
   "Wait": 1,
 
@@ -164,9 +158,7 @@
 
   "Comment": "Birch Loop",
   "SetPersistent": ["birch", 0],
-  "BreakBlock": [
-    "birch_log"
-  ],
+  "BreakBlock": ["birch_log",1],
   "AddPersistent": ["birch", 1],
   "Wait": 1,
 
@@ -199,9 +191,7 @@
 
   "Comment": "Jungle Loop",
   "SetPersistent": ["jungle", 0],
-  "BreakBlock": [
-    "jungle_log"
-  ],
+  "BreakBlock": ["jungle_log",1],
   "AddPersistent": ["jungle", 1],
   "Wait": 1,
 

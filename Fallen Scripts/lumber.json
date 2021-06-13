@@ -74,15 +74,16 @@
 
   "Comment": "Acacia Loop",
   "SetPersistent": ["acacia", 0],
-  "If":[],
-  "Equals":["acacia",">=",32],
-  "Equals":["acacia","<",32],
-
   "BreakBlock": [
     "acacia_log"
   ],
   "AddPersistent": ["acacia", 1],
   "Wait": 1,
+
+  "If":[],
+  "Equals":["acacia",">=",32],
+  "Equals":["acacia","<",32],
+
 
   "Skip": "got acacia",
   "Skip": "not enough acacia",
@@ -102,15 +103,16 @@
 
   "Comment": "Dark Oak Loop",
   "SetPersistent": ["dark_oak", 0],
-  "If":[],
-  "Equals":["dark_oak",">=",32],
-  "Equals":["dark_oak","<",32],
-
   "BreakBlock": [
     "dark_oak_log"
   ],
   "AddPersistent": ["dark_oak", 1],
   "Wait": 1,
+
+  "If":[],
+  "Equals":["dark_oak",">=",32],
+  "Equals":["dark_oak","<",32],
+
 
   "Skip": "got dark oak",
   "Skip": "not enough dark oak",
@@ -132,15 +134,16 @@
 
   "Comment": "Spruce Loop",
   "SetPersistent": ["spruce", 0],
-  "If":[],
-  "Equals":["spruce",">=",32],
-  "Equals":["spruce","<",32],
-
   "BreakBlock": [
     "spruce_log"
   ],
   "AddPersistent": ["spruce", 1],
   "Wait": 1,
+
+  "If":[],
+  "Equals":["spruce",">=",32],
+  "Equals":["spruce","<",32],
+
 
   "Skip": "got spruce",
   "Skip": "not enough spruce",
@@ -163,15 +166,16 @@
 
   "Comment": "Birch Loop",
   "SetPersistent": ["birch", 0],
-  "If":[],
-  "Equals":["birch",">=",32],
-  "Equals":["birch","<",32],
-
   "BreakBlock": [
     "birch_log"
   ],
   "AddPersistent": ["birch", 1],
   "Wait": 1,
+
+  "If":[],
+  "Equals":["birch",">=",32],
+  "Equals":["birch","<",32],
+
 
   "Skip": "got birch",
   "Skip": "not enough birch",
@@ -197,15 +201,16 @@
 
   "Comment": "Jungle Loop",
   "SetPersistent": ["jungle", 0],
-  "If":[],
-  "Equals":["jungle",">=",32],
-  "Equals":["jungle","<",32],
-
   "BreakBlock": [
     "jungle_log"
   ],
   "AddPersistent": ["jungle", 1],
   "Wait": 1,
+
+  "If":[],
+  "Equals":["jungle",">=",32],
+  "Equals":["jungle","<",32],
+
 
   "Skip": "got jungle",
   "Skip": "not enough jungle",

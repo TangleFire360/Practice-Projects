@@ -45,15 +45,15 @@
 
   "Comment": "Oak Loop",
   "SetPersistent": ["oak", 0],
-  "If":[],
-  "Equals":["oak",">=",32],
-  "Equals":["oak","<",32],
-
   "BreakBlock": [
     "oak_log"
   ],
   "AddPersistent": ["oak", 1],
   "Wait": 1,
+
+  "If":[],
+  "Equals":["oak",">=",32],
+  "Equals":["oak","<",32],
 
   "Skip": "got oak",
   "Skip": "not enough oak",

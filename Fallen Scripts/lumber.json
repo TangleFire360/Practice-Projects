@@ -45,9 +45,7 @@
 
   "Comment": "Oak Loop",
   "SetPersistent": ["oak", 0],
-  "BreakBlock": [
-    "oak_log"
-  ],
+  "BreakBlock": ["oak_log",1],
   "AddPersistent": ["oak", 1],
   "Wait": 1,
 

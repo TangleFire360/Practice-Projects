@@ -103,7 +103,7 @@
     "If":[],
     "NotIn":"lumber_secondary",
     "Start":"lumber_secondary",
-    "Dummy"[],
+    "Dummy":[],
 
       "SendMessage": "&4&l[name]:&f Wait you don't know where the oak is around here!?",
       "SendMessage": "&4&l[name]:&f It's quite literally all over the place! The miners use it some to prop up their tunnels.",

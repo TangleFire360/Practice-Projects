@@ -149,7 +149,7 @@
   "Skip": "Talk to Nelson",
 
   "Comment": "not enough dark oak",
-    "If"[],
+    "If":[],
     "NotIn": "lumber_secondary",
     "Start": "lumber_secondary",
     "Dummy": [],
@@ -174,7 +174,7 @@
   "Skip": "Talk to Nelson",
 
   "Comment": "not enough spruce",
-    "If"[],
+    "If":[],
     "NotIn": "lumber_secondary",
     "Start": "lumber_secondary",
     "Dummy": [],
@@ -203,7 +203,7 @@
 
 
   "Comment": "not enough birch",
-    "If"[],
+    "If":[],
     "NotIn": "lumber_secondary",
     "Start": "lumber_secondary",
     "Dummy": [],
@@ -231,7 +231,7 @@
   "Skip": "Talk to Nelson",
 
   "Comment": "not enough jungle",
-    "If"[],
+    "If":[],
     "NotIn": "lumber_secondary",
     "Start": "lumber_secondary",
     "Dummy": [],

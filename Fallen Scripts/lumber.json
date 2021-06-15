@@ -1,7 +1,6 @@
 {
   "Key":"finding_lumber",
   "Name":"Finding Lumber",
-  "Description":"",
   "Author": "TangleFire360",
   "Quest": true,
 
@@ -19,8 +18,48 @@
     "Nelson"
   ],
 
+
+  "SetPersistent":["count",-1,true],
+
+  "Comment": "Talk to Nelson",
   "HighlightClickEntity": "lumberjack",
 
+  "If": [],
+  "Equals": ["loop", 0],
+  "Skip": "Intro",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["loop", 1],
+  "Skip": "Oak Loop",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["loop", 2],
+  "Skip": "Acacia Loop",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["loop", 3],
+  "Skip": "Dark Oak Loop",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["loop", 4],
+  "Skip": "Spruce Loop",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["loop", 5],
+  "Skip": "Birch Loop",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["loop", 6],
+  "Skip": "Jungle Loop",
+  "Dummy": [],
+
+  "Comment":"Intro",
       "SendMessage": "&4&l[name]:&f Oh? Hello new friend!",
       "SendMessage": "&4&l[name]:&f Looking for wood are you? Well I can help with that.",
       "SendMessage": "&4&l[name]:&f There's wood all over the place here, and in all different types!",
@@ -38,107 +77,85 @@
   "Leave":[],
 
   "Comment": "yes",
-      "SendMessage": "&4&l[name]:&f Ah good, then why don't you go get some oak logs?",
-      "SendMessage": "&4&l[name]:&f You should figure out where it all is by the time you have &4&l32 Oak Logs&f.",
 
-  "HighlightClickEntity": "lumberjack",
+    "AddPersistent": ["loop",1,true],
+    "Skip": "Talk to Nelson",
+
 
   "Comment": "Oak Loop",
-  "SetPersistent": ["oak", 0],
-  "BreakBlock": ["oak_log",1],
-  "AddPersistent": ["oak", 1],
-  "Wait": 1,
+  "If": [],
+  "Equals":["count",-1],
+  "Skip":"First Wood",
+  "Skip":"not enough oak",
 
-  "If":[],
-  "Equals":["oak",">=",32],
-  "Equals":["oak","<",32],
-
-  "Skip": "got oak",
-  "Skip": "not enough oak",
+  "Comment": "First Wood",
+    "SendMessage": "&4&l[name]:&f Ah good, then why don't you go get some oak logs?",
+    "SendMessage": "&4&l[name]:&f You should figure out where it all is by the time you have &4&l32 Oak Logs&f.",
+    "Set":["count",0,true],
+  "Skip": "Talk to Nelson",
 
   "Comment": "not enough oak",
+    "If":[],
+    "NotIn":"lumber_secondary",
+    "Start":"lumber_secondary",
+    "Dummy"[],
+
       "SendMessage": "&4&l[name]:&f Wait you don't know where the oak is around here!?",
       "SendMessage": "&4&l[name]:&f It's quite literally all over the place! The miners use it some to prop up their tunnels.",
       "SendMessage": "&4&l[name]:&f You should be able to find &4&l32 Oak Logs&f if you just look around here some.",
 
-  "Skip": "Oak Loop",
+  "Skip": "Talk to Nelson",
 
   "Comment": "got oak",
       "SendMessage": "&4&l[name]:&f That wasn't too hard was it?",
       "SendMessage": "&4&l[name]:&f Another common wood to find around here is acacia.",
       "SendMessage": "&4&l[name]:&f Go get &4&l32 Acacia Logs&f and come back, shouldn't take you too long.",
 
-  "HighlightClickEntity": "lumberjack",
+  "Skip": "Talk to Nelson",
 
   "Comment": "Acacia Loop",
-  "SetPersistent": ["acacia", 0],
-  "BreakBlock": ["acacia_log",1],
-  "AddPersistent": ["acacia", 1],
-  "Wait": 1,
-
-  "If":[],
-  "Equals":["acacia",">=",32],
-  "Equals":["acacia","<",32],
-
-
-  "Skip": "got acacia",
-  "Skip": "not enough acacia",
+  "If": [],
+  "Equals":[],
+  "Skip":
+  "Dummy":[],
 
   "Comment": "not enough acacia",
       "SendMessage": "&4&l[name]:&f That's not enough for you to have found &4&l32 Acacia Logs&f",
       "SendMessage": "&4&l[name]:&f It's all around the walls of these mines, the miners complain about running into wood all the time!",
 
-  "Skip": "Acacia Loop",
+  "Skip": "Talk to Nelson",
 
   "Comment": "got acacia",
       "SendMessage": "&4&l[name]:&f Blends in doesn't it? You must have good eyes.",
       "SendMessage": "&4&l[name]:&f But now it gets a little harder, the other four types of wood aren't as easy to get in large amounts.",
       "SendMessage": "&4&l[name]:&f Don't believe me? Go get &4&l32 Dark Oak Logs&f then.",
-
-  "HighlightClickEntity": "lumberjack",
+  "Skip": "Talk to Nelson",
 
   "Comment": "Dark Oak Loop",
-  "SetPersistent": ["dark_oak", 0],
-  "BreakBlock": ["dark_oak_log",1],
-  "AddPersistent": ["dark_oak", 1],
-  "Wait": 1,
-
-  "If":[],
-  "Equals":["dark_oak",">=",32],
-  "Equals":["dark_oak","<",32],
-
-
-  "Skip": "got dark oak",
-  "Skip": "not enough dark oak",
+  "If": [],
+  "Equals":[],
+  "Skip":
+  "Dummy":[],
 
   "Comment": "not enough dark oak",
       "SendMessage": "&4&l[name]:&f Couldn't find it ey?",
       "SendMessage": "&4&l[name]:&f Well, some of the mining equipment is made of dark oak logs, but if you don't want to destroy those then try over by the pit.",
       "SendMessage": "&4&l[name]:&f Straight ahead, right next to one of those pesky Bone Snipers, you can get &4&l32 Dark Oak Logs&f there easily.",
 
-  "Skip": "Dark Oak Loop",
+  "Skip": "Talk to Nelson",
 
   "Comment": "got dark oak",
       "SendMessage": "&4&l[name]:&f Looks like you found it!",
       "SendMessage": "&4&l[name]:&f Half-way my friend, and I'll even cut you some slack and send you after spruce next.",
       "SendMessage": "&4&l[name]:&f Find &4&l32 Spruce Logs&f, and don't be afraid to grab a few extra if you want.",
 
-
-  "HighlightClickEntity": "lumberjack",
+  "Skip": "Talk to Nelson",,
 
   "Comment": "Spruce Loop",
-  "SetPersistent": ["spruce", 0],
-  "BreakBlock": ["spruce_log",1],
-  "AddPersistent": ["spruce", 1],
-  "Wait": 1,
-
-  "If":[],
-  "Equals":["spruce",">=",32],
-  "Equals":["spruce","<",32],
-
-
-  "Skip": "got spruce",
-  "Skip": "not enough spruce",
+  "If": [],
+  "Equals":[],
+  "Skip":
+  "Dummy":[],
 
   "Comment": "not enough spruce",
       "SendMessage": "&4&l[name]:&f Huh, I thought if you could find all the others you could find spruce too.",
@@ -146,7 +163,7 @@
       "SendMessage": "&4&l[name]:&f Try looking up around this area with the portal.",
       "SendMessage": "&4&l[name]:&f You should be able to reach a few of those trees and get &4&l32 Spruce Logs&f.",
 
-  "Skip": "Spruce Loop",
+  "Skip": "Talk to Nelson",
 
   "Comment": "got spruce",
       "SendMessage": "&4&l[name]:&f There may be some other spots with spruce, but those must be deeper in the mines.",
@@ -154,23 +171,13 @@
       "SendMessage": "&4&l[name]:&f Birch and jungle wood are guarded a little more heavily than the other woods.",
       "SendMessage": "&4&l[name]:&f If you haven't already, you may want to talk to Jerry in your kingdom about making some tools with the wood you have so far.",
       "SendMessage": "&4&l[name]:&f Once you're ready, go find &4&l32 Birch Logs&f.",
-
+    "Skip": "Talk to Nelson",
 
   "Comment": "Birch Loop",
-  "SetPersistent": ["birch", 0],
-  "BreakBlock": ["birch_log",1],
-  "AddPersistent": ["birch", 1],
-  "Wait": 1,
-
-  "If":[],
-  "Equals":["birch",">=",32],
-  "Equals":["birch","<",32],
-
-
-  "Skip": "got birch",
-  "Skip": "not enough birch",
-
-  "HighlightClickEntity": "lumberjack",
+  "If": [],
+  "Equals":[],
+  "Skip":
+  "Dummy":[],
 
   "Comment": "not enough birch",
       "SendMessage": "&4&l[name]:&f And now you see why I told you to get some tools first right?",
@@ -179,7 +186,7 @@
       "SendMessage": "&4&l[name]:&f After all, that's where we found Rick's body when he got killed by that golden chicken...",
       "SendMessage": "&4&l[name]:&f Don't worry though, you only need to collect &4&l32 Birch Logs&f, so you shouldn't be there too long.",
 
-  "Skip": "Birch Loop",
+  "Skip": "Talk to Nelson",
 
   "Comment": "got birch",
       "SendMessage": "&4&l[name]:&f Almost done friend!",
@@ -187,21 +194,14 @@
       "SendMessage": "&4&l[name]:&f There's only one more type of wood, jungle, and it's pretty deep in the mines too.",
       "SendMessage": "&4&l[name]:&f Go find the jungle wood and get &4&l32 Jungle Logs&f.",
 
-  "HighlightClickEntity": "lumberjack",
+  "Skip": "Talk to Nelson",
 
   "Comment": "Jungle Loop",
-  "SetPersistent": ["jungle", 0],
-  "BreakBlock": ["jungle_log",1],
-  "AddPersistent": ["jungle", 1],
-  "Wait": 1,
+  "If": [],
+  "Equals":[],
+  "Skip":
+  "Dummy":[],
 
-  "If":[],
-  "Equals":["jungle",">=",32],
-  "Equals":["jungle","<",32],
-
-
-  "Skip": "got jungle",
-  "Skip": "not enough jungle",
 
   "Comment": "not enough jungle",
       "SendMessage": "&4&l[name]:&f Haven't found it yet? Don't feel too bad about that.",
@@ -209,7 +209,7 @@
       "SendMessage": "&4&l[name]:&f And if you thought surviving the pond was hard, there are almost always three or four goblins by the jungle wood.",
       "SendMessage": "&4&l[name]:&f I get that &4&l32 Jungle Logs&f can be a lot, but it isn't too bad with a trusty axe in your hand!",
 
-  "Skip": "Jungle Loop",
+  "Skip": "Talk to Nelson",
 
   "Comment": "got jungle",
       "SendMessage": "&4&l[name]:&f Hey you got it!",

@@ -66,9 +66,13 @@
 
   "Comment":"Intro",
       "SendMessage": "&4&l[name]:&f Oh? Hello new friend!",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Looking for wood are you? Well I can help with that.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f There's wood all over the place here, and in all different types!",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Say, why don't you explore and find out where all the different wood is?",
+        "Wait":2,
 
   "SendMessageOptions": ["&2&lUh sure", "&4&lI don't need wood!"],
   "Skip": "yes",
@@ -76,13 +80,14 @@
 
   "Comment": "no",
       "SendMessage": "&4&l[name]:&f What do you mean you don't need wood!? Everyone needs wood!",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f But if you're fine with only using what you pick up from those annoying goblins then okay...",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Come talk to me again if you want to learn where different woods are.",
   "Wait":1,
   "Leave":[],
 
   "Comment": "yes",
-
     "AddPersistent": ["loop",1,true],
     "Skip": "Talk_to_Nelson",
 
@@ -95,8 +100,10 @@
 
   "Comment": "First_Wood",
     "SendMessage": "&4&l[name]:&f Ah good, then why don't you go get some oak logs?",
+      "Wait":2,
     "SendMessage": "&4&l[name]:&f You should figure out where it is by the time you have &4&l32 Oak Logs&f.",
     "Set":["count",0,true],
+    "Wait":1,
   "Skip": "Talk_to_Nelson",
 
   "Comment": "not_enough_oak",
@@ -106,8 +113,11 @@
     "Dummy":[],
 
       "SendMessage": "&4&l[name]:&f Wait you don't know where the oak is around here!?",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f It's quite literally all over the place! The miners use it some to prop up their tunnels.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f You should be able to find &4&l32 Oak Logs&f if you just look around here some.",
+        "Wait":2,
 
   "Skip": "Talk_to_Nelson",
 
@@ -119,8 +129,11 @@
 
   "Comment": "got_oak",
       "SendMessage": "&4&l[name]:&f That wasn't too hard was it?",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Another common wood to find around here is acacia.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Go get &4&l32 Acacia Logs&f and come back, shouldn't take you too long.",
+        "Wait":2,
       "Set": ["count",0,true],
   "Skip": "Talk_to_Nelson",
 
@@ -131,7 +144,9 @@
     "Dummy":[],
 
       "SendMessage": "&4&l[name]:&f That's not enough for you to have found &4&l32 Acacia Logs&f",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f It's all around the walls of these mines, the miners complain about running into wood all the time!",
+        "Wait":2,
 
   "Skip": "Talk_to_Nelson",
 
@@ -143,8 +158,11 @@
 
   "Comment": "got_acacia",
       "SendMessage": "&4&l[name]:&f Blends in doesn't it? You must have good eyes.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f But now it gets a little harder, the other four types of wood aren't as easy to get in large amounts.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Don't believe me? Go get &4&l32 Dark Oak Logs&f then.",
+        "Wait":2,
       "Set": ["count",0,true],
   "Skip": "Talk_to_Nelson",
 
@@ -155,8 +173,11 @@
     "Dummy": [],
 
       "SendMessage": "&4&l[name]:&f Couldn't find it ey?",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Well, some of the mining equipment is made of dark oak logs, but if you don't want to destroy those then try over by the pit.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Straight ahead, right next to one of those pesky Bone Snipers, you can get &4&l32 Dark Oak Logs&f there easily.",
+        "Wait":2,
 
   "Skip": "Talk_to_Nelson",
 
@@ -168,8 +189,11 @@
 
   "Comment": "got_dark_oak",
       "SendMessage": "&4&l[name]:&f Looks like you found it!",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Half-way my friend, and I'll even cut you some slack and send you after spruce next.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Find &4&l32 Spruce Logs&f, and don't be afraid to grab a few extra if you want.",
+        "Wait":2,
       "Set": ["count",0,true],
   "Skip": "Talk_to_Nelson",
 
@@ -180,9 +204,13 @@
     "Dummy": [],
 
       "SendMessage": "&4&l[name]:&f Huh, I thought if you could find all the others you could find spruce too.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Here I'll give you a hint.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Try looking up around this area with the portal.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f You should be able to reach a few of those trees and get &4&l32 Spruce Logs&f.",
+        "Wait":2,
 
   "Skip": "Talk_to_Nelson",
 
@@ -194,10 +222,15 @@
 
   "Comment": "got_spruce",
       "SendMessage": "&4&l[name]:&f There may be some other spots with spruce, but those must be deeper in the mines.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Speaking of going deeper in the mines...",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Birch and jungle wood are guarded a little more heavily than the other woods.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f If you haven't already, you may want to talk to Jerry in your kingdom about making some tools with the wood you have so far.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Once you're ready, go find &4&l32 Birch Logs&f.",
+        "Wait":2,
       "Set": ["count",0,true],
     "Skip": "Talk_to_Nelson",
 
@@ -209,10 +242,15 @@
     "Dummy": [],
 
       "SendMessage": "&4&l[name]:&f And now you see why I told you to get some tools first right?",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f If you want to save some time, try going to the pond.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Careful, you have to go past the pit to get there, and the pond is dangerous.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f After all, that's where we found Rick's body when he got killed by that golden chicken...",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Don't worry though, you only need to collect &4&l32 Birch Logs&f, so you shouldn't be there too long.",
+        "Wait":2,
 
   "Skip": "Talk_to_Nelson",
 
@@ -224,9 +262,13 @@
 
   "Comment": "got_birch",
       "SendMessage": "&4&l[name]:&f Almost done friend!",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f I've asked a lot of you, but trust me you'll thank me for it later.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f There's only one more type of wood, jungle, and it's pretty deep in the mines too.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Go find the jungle wood and get &4&l32 Jungle Logs&f.",
+        "Wait":2,
       "Set":["count",0,true],
   "Skip": "Talk_to_Nelson",
 
@@ -237,29 +279,39 @@
     "Dummy": [],
 
       "SendMessage": "&4&l[name]:&f Haven't found it yet? Don't feel too bad about that.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f There's only one spot in these mines with jungle wood, in the tunnels over by the pond.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f And if you thought surviving the pond was hard, there are almost always three or four goblins by the jungle wood.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f I get that &4&l32 Jungle Logs&f can be a lot, but it isn't too bad with a trusty axe in your hand!",
+        "Wait":2,
 
   "Skip": "Talk_to_Nelson",
 
   "Comment": "got_jungle",
       "SendMessage": "&4&l[name]:&f Hey you got it!",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Congrats! You've gotten a good haul of wood for your wood-based needs, and learned something along the way.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f What's that look for? Is there an easier way to get wood?",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f Well, if you go to Nicole's Artisan Shop in the hub, she sells leaves.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f If you get lucky, you can get a sapling by breaking just a few leaves, but it can take quite a few sometimes.",
+        "Wait":2,
       "SendMessage": "&4&l[name]:&f It gets really expensive really quick if you're not lucky, so it's always good to know where you can find wood around here.",
   "Wait": 1,
 
   "HighlightClickEntity": "lumberjack",
 
       "SendMessage": "&4&l[name]:&f Oh yeah, here's a little something to help you store all that wood you've collected.",
+        "Wait":2,
 
   "Start": [
     "finding_lumber_rewards"
   ],
 
+  "Complete":[],
   "CompleteKingdomQuest":[]
-
 }

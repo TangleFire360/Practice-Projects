@@ -84,16 +84,16 @@
   "Comment": "yes",
 
     "AddPersistent": ["loop",1,true],
-    "Skip": "Talk to Nelson",
+    "Skip": "Talk_to_Nelson",
 
 
-  "Comment": "Oak Loop",
+  "Comment": "Oak_Loop",
   "If": [],
   "Equals":["count",-1],
   "Skip":"First Wood",
   "Skip":"not_enough_oak",
 
-  "Comment": "First Wood",
+  "Comment": "First_Wood",
     "SendMessage": "&4&l[name]:&f Ah good, then why don't you go get some oak logs?",
     "SendMessage": "&4&l[name]:&f You should figure out where it is by the time you have &4&l32 Oak Logs&f.",
     "Set":["count",0,true],

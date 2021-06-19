@@ -154,7 +154,7 @@
   "If": [],
   "Equals":["count",-1],
   "Skip":"gotacacia",
-  "Skip":"not_enoughdarkoak",
+  "Skip":"notenoughdarkoak",
 
   "Comment": "gotacacia",
       "SendMessage": "&4&l[name]:&f Blends in doesn't it? You must have good eyes.",
@@ -187,7 +187,7 @@
     "Skip": "gotdarkoak",
     "Skip":"notenoughspruce",
 
-  "Comment": "got_dark_oak",
+  "Comment": "gotdarkoak",
       "SendMessage": "&4&l[name]:&f Looks like you found it!",
         "Wait":10,
       "SendMessage": "&4&l[name]:&f Half-way my friend, and I'll even cut you some slack and send you after spruce next.",

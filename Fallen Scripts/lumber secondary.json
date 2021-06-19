@@ -4,7 +4,7 @@
 
   "AllowRejoining": true,
 
-  "Comment": "Not_Enough",
+  "Comment": "NotEnough",
 
   "If":[],
   "Equals":["loop",0],
@@ -40,10 +40,10 @@
 
   "If": [],
   "Equals":["count", ">=", 32],
-  "Skip": "Got_Wood",
-  "Skip": "Not_Enough",
+  "Skip": "GotWood",
+  "Skip": "NotEnough",
 
-  "Comment": "Got_Wood",
+  "Comment": "GotWood",
   "SetPersistent":["count", -1, true],
   "AddPersistent": ["loop", 1, true],
 

@@ -7,34 +7,40 @@
   "Comment": "NotEnough",
 
   "If":[],
-  "Equals":["loop",0],
-  "BreakBlock":["oak_log",1],
-  "Dummy":[],
-
-  "If":[],
   "Equals":["loop",1],
-  "BreakBlock":["acacia_log",1],
   "Dummy":[],
+  "Skip": 2,
+  "BreakBlock":["oak_log",1],
 
   "If":[],
   "Equals":["loop",2],
-  "BreakBlock":["dark_oak_log",1],
   "Dummy":[],
+  "Skip": 2,
+  "BreakBlock":["acacia_log",1],
 
   "If":[],
   "Equals":["loop",3],
-  "BreakBlock":["spruce_log",1],
   "Dummy":[],
+  "Skip": 2,
+  "BreakBlock":["dark_oak_log",1],
 
   "If":[],
   "Equals":["loop",4],
-  "BreakBlock":["birch_log",1],
   "Dummy":[],
+  "Skip": 2,
+  "BreakBlock":["spruce_log",1],
 
   "If":[],
   "Equals":["loop",5],
-  "BreakBlock":["jungle_log",1],
   "Dummy":[],
+  "Skip": 2,
+  "BreakBlock":["birch_log",1],
+
+  "If":[],
+  "Equals":["loop",6],
+  "Dummy":[],
+  "Skip": 2,
+  "BreakBlock":["jungle_log",1],
 
   "AddPersistent":["count", 1, true],
 

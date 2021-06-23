@@ -8,41 +8,47 @@
 
   "If":[],
   "Equals":["nelson_loop",1],
-  "Dummy":[],
-  "Skip": 1,
+  "Skip":"Breakoak",
+  "Skip": 2,
+  "Comment":"Breakoak",
   "BreakBlock":["oak_log",1],
 
   "If":[],
   "Equals":["nelson_loop",2],
-  "Dummy":[],
-  "Skip": 1,
+  "Skip":"Breakacacia",
+  "Skip": 2,
+  "Comment":"Breakacacia",
   "BreakBlock":["acacia_log",1],
 
   "If":[],
   "Equals":["nelson_loop",3],
-  "Dummy":[],
-  "Skip": 1,
+  "Skip":"Breakdarkoak",
+  "Skip": 2,
+  "Comment":"Breakdarkoak",
   "BreakBlock":["dark_oak_log",1],
 
   "If":[],
   "Equals":["nelson_loop",4],
-  "Dummy":[],
-  "Skip": 1,
+  "Skip":"Breakspruce",
+  "Skip": 2,
+  "Comment":"Breakspruce",
   "BreakBlock":["spruce_log",1],
 
   "If":[],
   "Equals":["nelson_loop",5],
-  "Dummy":[],
-  "Skip": 1,
+  "Skip":"Breakbirch",
+  "Skip": 2,
+  "Comment":"Breakbirch",
   "BreakBlock":["birch_log",1],
 
   "If":[],
   "Equals":["nelson_loop",6],
-  "Dummy":[],
-  "Skip": 1,
+  "Skip":"Breakjungle",
+  "Skip": 2,
+  "Comment":"Breakjungle",
   "BreakBlock":["jungle_log",1],
 
-  "AddPersistent":["nelson_count", 1, true],
+  "AddPersistent":["nelson_count", 1],
 
   "If": [],
   "Equals":["nelson_count", ">=", 32],
@@ -50,8 +56,8 @@
   "Skip": "NotEnough",
 
   "Comment": "GotWood",
-  "SetPersistent":["nelson_count", -1, true],
-  "AddPersistent": ["nelson_loop", 1, true],
+  "SetPersistent":["nelson_count", -1],
+  "AddPersistent": ["nelson_loop", 1],
 
   "Dummy": []
 }

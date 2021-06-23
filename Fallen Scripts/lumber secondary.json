@@ -39,7 +39,7 @@
   "If":[],
   "Equals":["nelson_loop",6],
   "Dummy":[],
-  "Skip": 2,
+  "Skip": 1,
   "BreakBlock":["jungle_log",1],
 
   "AddPersistent":["nelson_count", 1, true],

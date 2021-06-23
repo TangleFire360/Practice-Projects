@@ -19,7 +19,7 @@
   ],
 
 
-  "SetPersistent":["nelson_loop",1],
+  "SetPersistent":["nelson_loop",0],
   "SetPersistent":["nelson_count",-1,true],
   "HighlightClickEntity": "lumberjack",
       "SendMessage": "&4&l[name]:&f Oh? Hello new friend!",

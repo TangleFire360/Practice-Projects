@@ -50,7 +50,10 @@
 
   "Comment": "TalktoNelson",
   "Wait": 2,
-  "HighlightClickEntity": "lumberjack",
+  "If": [],
+  "Equals":["nelson_count", ">=", 32],
+  "Skip": "GotWood",
+  "Dummy":[],
 
   "If": [],
   "Equals": ["nelson_loop", 1],
@@ -331,6 +334,14 @@
   "Start": [
     "finding_lumber_rewards"
   ],
+
+"Skip": 5,
+
+  "Comment": "GotWood",
+  "SetPersistent":["nelson_count", -1],
+  "AddPersistent": ["nelson_loop", 1],
+  "HighlightClickEntity": "lumberjack",
+  "Skip":"TalktoNelson",
 
   "Complete":[],
   "CompleteKingdomQuest":[]

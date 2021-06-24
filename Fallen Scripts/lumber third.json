@@ -6,58 +6,59 @@
 
   "Comment": "NotEnough",
 
+  "Comment":"Oak",
   "If":[],
   "Equals":["nelson_loop",1],
   "Skip":"Breakoak",
-  "Skip": 2,
+  "Skip": "Acacia",
   "Comment":"Breakoak",
   "BreakBlock":["oak_wood",1],
+  "AddPersistent":["nelson_count", 1],
 
+  "Comment":"Acacia",
   "If":[],
   "Equals":["nelson_loop",2],
   "Skip":"Breakacacia",
-  "Skip": 2,
+  "Skip": "Darkoak",
   "Comment":"Breakacacia",
   "BreakBlock":["acacia_wood",1],
+  "AddPersistent":["nelson_count", 1],
 
+  "Comment":"Darkoak",
   "If":[],
   "Equals":["nelson_loop",3],
-  "Skip":"Breakdarkoak", 
-  "Skip": 2,
+  "Skip":"Breakdarkoak",
+  "Skip": "Spruce",
   "Comment":"Breakdarkoak",
   "BreakBlock":["dark_oak_wood",1],
+  "AddPersistent":["nelson_count", 1],
 
+  "Comment":"Spruce",
   "If":[],
   "Equals":["nelson_loop",4],
   "Skip":"Breakspruce",
-  "Skip": 2,
+  "Skip": "Birch",
   "Comment":"Breakspruce",
   "BreakBlock":["spruce_wood",1],
+  "AddPersistent":["nelson_count", 1],
 
+  "Comment":"Birch",
   "If":[],
   "Equals":["nelson_loop",5],
   "Skip":"Breakbirch",
-  "Skip": 2,
+  "Skip": "Jungle",
   "Comment":"Breakbirch",
   "BreakBlock":["birch_wood",1],
+  "AddPersistent":["nelson_count", 1],
 
+  "Comment":"Jungle",
   "If":[],
   "Equals":["nelson_loop",6],
   "Skip":"Breakjungle",
-  "Skip": 2,
+  "Skip": 3,
   "Comment":"Breakjungle",
   "BreakBlock":["jungle_wood",1],
-
   "AddPersistent":["nelson_count", 1],
 
-  "If": [],
-  "Equals":["nelson_count", ">=", 32],
-  "Skip": "GotWood",
-  "Skip": "NotEnough",
-
-  "Comment": "GotWood",
-  "SetPersistent":["nelson_count", -1],
-  "AddPersistent": ["nelson_loop", 1],
-
-  "Dummy": []
+  "Skip":"Notenough"
 }

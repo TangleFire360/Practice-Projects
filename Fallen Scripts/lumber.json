@@ -46,7 +46,7 @@
 
   "Comment": "Yes",
     "SendMessage": "&4&l[name]:&f Let's get started then!",
-    "AddPersistent": ["nelson_loop",1,true],
+    "AddPersistent": ["nelson_loop",1],
 
   "Comment": "TalktoNelson",
   "Wait": 2,
@@ -98,7 +98,7 @@
     "SendMessage": "&4&l[name]:&f Why don't you go get some oak logs?",
       "Wait":20,
     "SendMessage": "&4&l[name]:&f You should figure out where they are by the time you have &4&l32 Oak Logs&f.",
-    "Set":["nelson_count",0,true],
+    "Set":["nelson_count",0],
     "Wait":1,
   "Skip": "TalktoNelson",
 
@@ -159,7 +159,7 @@
         "Wait":20,
       "SendMessage": "&4&l[name]:&f Don't believe me? Go get &4&l32 Dark Oak Logs&f then.",
         "Wait":20,
-      "Set": ["nelson_count",0,true],
+      "Set": ["nelson_count",0],
   "Skip": "TalktoNelson",
 
   "Comment": "Notenoughdarkoak",
@@ -190,7 +190,7 @@
         "Wait":20,
       "SendMessage": "&4&l[name]:&f Find &4&l32 Spruce Logs&f, and don't be afraid to grab a few extra if you want.",
         "Wait":20,
-      "Set": ["nelson_count",0,true],
+      "Set": ["nelson_count",0],
   "Skip": "TalktoNelson",
 
   "Comment": "Notenoughspruce",
@@ -227,7 +227,7 @@
         "Wait":20,
       "SendMessage": "&4&l[name]:&f Once you're ready, go find &4&l32 Birch Logs&f.",
         "Wait":20,
-      "Set": ["nelson_count",0,true],
+      "Set": ["nelson_count",0],
     "Skip": "TalktoNelson",
 
 
@@ -265,7 +265,7 @@
         "Wait":20,
       "SendMessage": "&4&l[name]:&f Go find the jungle wood and get &4&l32 Jungle Logs&f.",
         "Wait":20,
-      "Set":["nelson_count",0,true],
+      "Set":["nelson_count",0],
   "Skip": "TalktoNelson",
 
   "Comment": "Notenoughjungle",

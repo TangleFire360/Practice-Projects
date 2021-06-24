@@ -1,0 +1,63 @@
+{
+  "Key": "lumber_third",
+  "Author": "TangleFire360",
+
+  "AllowRejoining": true,
+
+  "Comment": "NotEnough",
+
+  "If":[],
+  "Equals":["nelson_loop",1],
+  "Skip":"Breakoak",
+  "Skip": 2,
+  "Comment":"Breakoak",
+  "BreakBlock":["oak_wood",1],
+
+  "If":[],
+  "Equals":["nelson_loop",2],
+  "Skip":"Breakacacia",
+  "Skip": 2,
+  "Comment":"Breakacacia",
+  "BreakBlock":["acacia_wood",1],
+
+  "If":[],
+  "Equals":["nelson_loop",3],
+  "Skip":"Breakdarkoak", 
+  "Skip": 2,
+  "Comment":"Breakdarkoak",
+  "BreakBlock":["dark_oak_wood",1],
+
+  "If":[],
+  "Equals":["nelson_loop",4],
+  "Skip":"Breakspruce",
+  "Skip": 2,
+  "Comment":"Breakspruce",
+  "BreakBlock":["spruce_wood",1],
+
+  "If":[],
+  "Equals":["nelson_loop",5],
+  "Skip":"Breakbirch",
+  "Skip": 2,
+  "Comment":"Breakbirch",
+  "BreakBlock":["birch_wood",1],
+
+  "If":[],
+  "Equals":["nelson_loop",6],
+  "Skip":"Breakjungle",
+  "Skip": 2,
+  "Comment":"Breakjungle",
+  "BreakBlock":["jungle_wood",1],
+
+  "AddPersistent":["nelson_count", 1],
+
+  "If": [],
+  "Equals":["nelson_count", ">=", 32],
+  "Skip": "GotWood",
+  "Skip": "NotEnough",
+
+  "Comment": "GotWood",
+  "SetPersistent":["nelson_count", -1],
+  "AddPersistent": ["nelson_loop", 1],
+
+  "Dummy": []
+}

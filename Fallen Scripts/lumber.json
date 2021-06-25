@@ -49,6 +49,7 @@
     "AddPersistent": ["nelson_loop",1],
 
   "Comment": "TalktoNelson",
+  "HighlightClickEntity":"lumberjack",
   "Wait": 2,
   "If": [],
   "Equals":["nelson_count", ">=", 32],

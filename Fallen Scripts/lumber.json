@@ -102,6 +102,8 @@
       "Wait":20,
     "SendMessage": "&4&l[name]:&f You should figure out where they are by the time you have &4&l32 Oak Logs&f.",
     "Set":["nelson_count",0],
+    "Start":"lumber_secondary",
+    "Start":"lumber_third",
     "Wait":1,
   "Skip": "TalktoNelson",
 
@@ -138,6 +140,8 @@
       "SendMessage": "&4&l[name]:&f Go get &4&l32 Acacia Logs&f and come back, shouldn't take you too long.",
         "Wait":20,
       "Set": ["nelson_count",0,true],
+      "Start":"lumber_secondary",
+      "Start":"lumber_third",
   "Skip": "TalktoNelson",
 
   "Comment": "Notenoughacacia",
@@ -171,6 +175,8 @@
       "SendMessage": "&4&l[name]:&f Don't believe me? Go get &4&l32 Dark Oak Logs&f then.",
         "Wait":20,
       "Set": ["nelson_count",0],
+      "Start":"lumber_secondary",
+      "Start":"lumber_third",
   "Skip": "TalktoNelson",
 
   "Comment": "Notenoughdarkoak",
@@ -206,6 +212,8 @@
       "SendMessage": "&4&l[name]:&f Find &4&l32 Spruce Logs&f, and don't be afraid to grab a few extra if you want.",
         "Wait":20,
       "Set": ["nelson_count",0],
+      "Start":"lumber_secondary",
+      "Start":"lumber_third",
   "Skip": "TalktoNelson",
 
   "Comment": "Notenoughspruce",
@@ -247,6 +255,8 @@
       "SendMessage": "&4&l[name]:&f Once you're ready, go find &4&l32 Birch Logs&f.",
         "Wait":20,
       "Set": ["nelson_count",0],
+      "Start":"lumber_secondary",
+      "Start":"lumber_third",
     "Skip": "TalktoNelson",
 
 
@@ -289,6 +299,8 @@
       "SendMessage": "&4&l[name]:&f Go find the jungle wood and get &4&l32 Jungle Logs&f.",
         "Wait":20,
       "Set":["nelson_count",0],
+      "Start":"lumber_secondary",
+      "Start":"lumber_third",
   "Skip": "TalktoNelson",
 
   "Comment": "Notenoughjungle",

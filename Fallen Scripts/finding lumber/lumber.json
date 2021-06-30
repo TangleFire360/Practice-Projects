@@ -59,7 +59,11 @@
   "If": [],
   "Equals":["nelson_count", ">=", 32],
   "Skip": "GotWood",
-  "Dummy":[],
+  "Skip":3,
+
+  "Comment": "GotWood",
+  "SetPersistent":["nelson_count", -1],
+  "AddPersistent": ["nelson_loop", 1],
 
   "If": [],
   "Equals": ["nelson_loop", 1],
@@ -352,13 +356,6 @@
   "Start": [
     "finding_lumber_rewards"
   ],
-
-"Skip": 4,
-
-  "Comment": "GotWood",
-  "SetPersistent":["nelson_count", -1],
-  "AddPersistent": ["nelson_loop", 1],
-  "Skip":"TalktoNelson",
 
   "Complete":[],
   "CompleteKingdomQuest":[]

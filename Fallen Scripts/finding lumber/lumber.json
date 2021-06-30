@@ -50,8 +50,8 @@
   "Leave":[],
 
   "Comment": "Yes",
-    "SendMessage": "&4&l[name]:&f Let's get started then!",
     "AddPersistent": ["nelson_loop",1],
+    "Skip":"FirstWood",
 
   "Comment": "TalktoNelson",
   "HighlightClickEntity":"lumberjack",

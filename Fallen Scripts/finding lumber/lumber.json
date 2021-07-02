@@ -132,6 +132,7 @@
     "Start":"lumber_third",
     "Dummy":[],
 
+<<<<<<< HEAD
     "If":[],
     "Equals":["nelson_failed","=",0],
     "Dummy":[],
@@ -139,6 +140,27 @@
 
       "SendMessage": "&c&l[name]>&f Wait you don't know where the oak is around here!?",
       "AddPersistent":["nelson_failed",1],
+=======
+      "RandomOption": 10,
+      "Dummy": [],
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+      "Skip": "OakNoInsult",
+
+      "RandomOption": 3,
+      "SendMessage": "&c&l[name]>&f Still can't find the oak?",
+      "SendMessage": "&c&l[name]>&f You know there is oak behind you right?",
+      "SendMessage": "&c&l[name]>&f Wait you don't know where the oak is around here!?",
+
+        "Wait":30,
+      "Comment": "OakNoInsult",
+>>>>>>> 9da2ac418ffbb76e0ae21ee8571a2792081697e3
         "Wait":30,
       "Comment":"Failedoakagain",
       "SendMessage": "&c&l[name]>&f It's quite literally all over the place! The miners use it to prop up their tunnels.",

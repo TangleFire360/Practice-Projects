@@ -26,6 +26,7 @@
 
   "SetPersistent":["nelson_loop",0],
   "SetPersistent":["nelson_count",-1,true],
+  "SetPersistent": ["nelson_failed",0],
   "HighlightClickEntity": "lumberjack",
       "SendMessage": "&c&l[name]>&f Oh? Hello new friend!",
         "Wait":30,
@@ -131,8 +132,15 @@
     "Start":"lumber_third",
     "Dummy":[],
 
+    "If":[],
+    "Equals":["nelson_failed","=",0],
+    "Dummy":[],
+    "Skip":"Failedoakagain",
+
       "SendMessage": "&c&l[name]>&f Wait you don't know where the oak is around here!?",
+      "AddPersistent":["nelson_failed",1],
         "Wait":30,
+      "Comment":"Failedoakagain",
       "SendMessage": "&c&l[name]>&f It's quite literally all over the place! The miners use it to prop up their tunnels.",
         "Wait":30,
       "SendMessage": "&c&l[name]>&f You should be able to find &4&l32 Oak Logs&f if you just look around here some.",
@@ -168,9 +176,10 @@
     "Start":"lumber_third",
     "Dummy":[],
 
+    "AddPersistent":["nelson_failed",1],
       "SendMessage": "&c&l[name]>&f That's not enough for you to have found &4&l32 Acacia Logs&f",
         "Wait":30,
-      "SendMessage": "&c&l[name]>&f It's all around the walls of these mines, the miners complain about running into wood all the time!",
+      "SendMessage": "&c&l[name]>&f It's all around the walls of these mines, the miners complain about running into wood instead of stone all the time!",
         "Wait":30,
 
   "Skip": "TalktoNelson",
@@ -203,7 +212,14 @@
     "Start":"lumber_third",
     "Dummy":[],
 
+    "If":[],
+    "Equals":["nelson_failed","=",2],
+    "Dummy":[],
+    "Skip":"Faileddarkoakagain",
+
       "SendMessage": "&c&l[name]>&f Couldn't find it ey?",
+      "AddPersistent":["nelson_failed",1],
+      "Comment":"Faileddarkoakagain",
         "Wait":30,
       "SendMessage": "&c&l[name]>&f Well, some of the mining equipment is made of dark oak logs, but if you don't want to destroy those then try over by the pit.",
         "Wait":30,
@@ -240,7 +256,14 @@
     "Start":"lumber_third",
     "Dummy":[],
 
+    "If":[],
+    "Equals":["nelson_failed","=",3],
+    "Dummy":[],
+    "Skip":"Failedspruceagain",
+
       "SendMessage": "&c&l[name]>&f Huh, I thought if you could find all the others you could find spruce too.",
+      "AddPersistent":["nelson_failed",1],
+      "Comment":"Failedspruceagain",
         "Wait":30,
       "SendMessage": "&c&l[name]>&f Here I'll give you a hint.",
         "Wait":30,
@@ -284,7 +307,14 @@
     "Start":"lumber_third",
     "Dummy":[],
 
+    "If":[],
+    "Equals":["nelson_failed","=",4],
+    "Dummy":[],
+    "Skip":"Failedbirchagain",
+
       "SendMessage": "&c&l[name]>&f And now you see why I told you to get some tools first right?",
+        "AddPersistent":["nelson_failed",1],
+        "Comment":"Failedbirchagain",
         "Wait":30,
       "SendMessage": "&c&l[name]>&f If you want to save some time, try going to the pond.",
         "Wait":30,
@@ -327,7 +357,14 @@
     "Start":"lumber_third",
     "Dummy":[],
 
+    "If":[],
+    "Equals":["nelson_failed","=",5],
+    "Dummy":[],
+    "Skip":"Failedjungleagain",
+
       "SendMessage": "&c&l[name]>&f Haven't found it yet? Don't feel too bad about that.",
+        "AddPersistent":["nelson_failed",1],
+        "Comment":"Failedjungleagain",
         "Wait":30,
       "SendMessage": "&c&l[name]>&f There's only one spot in these mines with jungle wood, in the tunnels over by the pond.",
         "Wait":30,

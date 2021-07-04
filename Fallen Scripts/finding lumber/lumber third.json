@@ -6,7 +6,6 @@
 
   "Comment": "NotEnough",
 
-  "Comment":"Oak",
   "If":[],
   "Equals":["nelson_loop",1],
   "Skip":"Breakoak",

@@ -1,0 +1,19 @@
+"If":[],
+"HasItem":["fallen_iron_pickaxe",false],
+"Skip":"Pickaxe",
+"Dummy":[],
+
+"If":[],
+"HasItem": ["fallen_diamond_pickaxe",false],
+"Skip":"Pickaxe",
+"Skip":"Nopick",
+
+
+
+"Comment":"Pickaxe",
+  "Dialog":"whateveryouputhere",
+  "Skip":3,
+
+"Comment":"Nopick",
+  "Dialog":"You don't have a decent pickaxe you idiot.",
+  "Leave":[]

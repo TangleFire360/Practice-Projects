@@ -2,9 +2,9 @@
   "Key":"finding_lumber",
   "Name":"Finding Lumber",
   "Author": "TangleFire360",
-  "Quest": true,
 
   "AllowRejoining": true,
+  "NotCompleted":[],
 
   "CreateEntity": {
     "key": "lumberjack",
@@ -24,8 +24,18 @@
   ],
 
 
-  "SetPersistent":["nelson_loop",0],
-  "SetPersistent":["nelson_count",-1,true],
+
+  "If":[],
+  "Equals":["nelson_loop",">=",8],
+  "Skip":"Alreadydone",
+  "Dummy":[],
+
+  "Comment":"Alreadydone",
+    "SendMessage":"Do you really need help finding wood? I helped you find it already...",
+      "Wait":30,
+    "SendMessage":"Maybe I'll think of something later you can do later...",
+      "Leave":[],
+
   "HighlightClickEntity": "lumberjack",
       "SendMessage": "&c&l[name]>&f Oh? Hello new friend!",
         "Wait":30,
@@ -36,7 +46,7 @@
       "SendMessage": "&c&l[name]>&f Say, why don't you explore and find out where all the different woods are?",
         "Wait":30,
 
-  "SendMessageOptions": [-1,"&2&lUh sure", "&4&lI don't need wood!"],
+  "SendMessageOptions": [-1,"&2&lUhh, sure", "&4&lI don't need wood!"],
   "Skip": "Yes",
   "Skip": "No",
 
@@ -51,7 +61,9 @@
 
   "Comment": "Yes",
     "AddPersistent": ["nelson_loop",1],
-    "Skip":"FirstWood",
+    "SendMessage":"Good, after all, it's great to know where you can get various resources.",
+      "Wait":30,
+    "SendMessage":"Don't worry if you don't have an axe, you'll have what you need for one soon enough!",
 
   "Comment": "TalktoNelson",
   "HighlightClickEntity":"lumberjack",
@@ -131,10 +143,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-      "RandomOption": 10,
+      "RandomOption": 8,
       "Dummy": [],
-      "Skip": "OakNoInsult",
-      "Skip": "OakNoInsult",
       "Skip": "OakNoInsult",
       "Skip": "OakNoInsult",
       "Skip": "OakNoInsult",
@@ -187,10 +197,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 10,
+    "RandomOption": 8,
     "Dummy": [],
-    "Skip": "AcaciaNoInsult",
-    "Skip": "AcaciaNoInsult",
     "Skip": "AcaciaNoInsult",
     "Skip": "AcaciaNoInsult",
     "Skip": "AcaciaNoInsult",
@@ -243,10 +251,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 10,
+    "RandomOption": 8,
     "Dummy": [],
-    "Skip": "DarkOakNoInsult",
-    "Skip": "DarkOakNoInsult",
     "Skip": "DarkOakNoInsult",
     "Skip": "DarkOakNoInsult",
     "Skip": "DarkOakNoInsult",
@@ -299,10 +305,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 10,
+    "RandomOption": 8,
     "Dummy": [],
-    "Skip": "SpruceNoInsult",
-    "Skip": "SpruceNoInsult",
     "Skip": "SpruceNoInsult",
     "Skip": "SpruceNoInsult",
     "Skip": "SpruceNoInsult",
@@ -362,10 +366,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 10,
+    "RandomOption": 8,
     "Dummy": [],
-    "Skip": "BirchNoInsult",
-    "Skip": "BirchNoInsult",
     "Skip": "BirchNoInsult",
     "Skip": "BirchNoInsult",
     "Skip": "BirchNoInsult",
@@ -424,10 +426,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 10,
+    "RandomOption": 8,
     "Dummy": [],
-    "Skip": "JungleNoInsult",
-    "Skip": "JungleNoInsult",
     "Skip": "JungleNoInsult",
     "Skip": "JungleNoInsult",
     "Skip": "JungleNoInsult",
@@ -465,6 +465,9 @@
         "Wait":30,
       "SendMessage": "&c&l[name]>&f It gets real expensive real quick if you're not lucky, so it's always good to know where you can find wood around here.",
   "Wait": 1,
+  "SetPersistent":["nelson_loop",0],
+  "SetPersistent":["nelson_count",-1,true],
+
 
   "HighlightClickEntity": "lumberjack",
 
@@ -475,6 +478,5 @@
     "finding_lumber_rewards"
   ],
 
-  "Complete":[],
   "CompleteKingdomQuest":[]
 }

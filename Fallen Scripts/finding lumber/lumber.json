@@ -23,18 +23,14 @@
     "Nelson"
   ],
 
-
-
-  "If":[],
-  "Equals":["nelson_loop",">=",8],
-  "Skip":"Alreadydone",
-  "Dummy":[],
-
-  "Comment":"Alreadydone",
-    "SendMessage":"Do you really need help finding wood? I helped you find it already...",
-      "Wait":30,
-    "SendMessage":"Maybe I'll think of something later you can do later...",
-      "Leave":[],
+  "Hide":"lumberjack",
+  "InRegion":[
+    2329,69,469,
+    2340,73,463
+  ],
+    "NotCompletedKingdom":[],
+    "Wait":10,
+    "Show":"lumberjack",
 
   "HighlightClickEntity": "lumberjack",
       "SendMessage": "&c&l[name]>&f Oh? Hello new friend!",
@@ -478,6 +474,5 @@
     "finding_lumber_rewards"
   ],
 
-  "Hide":"lumberjack",
   "CompleteKingdomQuest":[]
 }

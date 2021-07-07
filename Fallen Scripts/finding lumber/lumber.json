@@ -57,9 +57,9 @@
 
   "Comment": "Yes",
     "AddPersistent": ["nelson_loop",1],
-    "SendMessage":"Good, after all, it's great to know where you can get various resources.",
+    "SendMessage":"&c&l[name]>&f Good, after all, it's great to know where you can get various resources.",
       "Wait":30,
-    "SendMessage":"Don't worry if you don't have an axe, you'll have what you need for one soon enough!",
+    "SendMessage":"&c&l[name]>&f Don't worry if you don't have an axe, you'll have what you need for one soon enough!",
 
   "Comment": "TalktoNelson",
   "HighlightClickEntity":"lumberjack",
@@ -160,7 +160,7 @@
         "Wait":30,
       "SendMessage": "&c&l[name]>&f You should be able to find &4&l32 Oak Logs&f if you just look around here.",
         "Wait":30,
-      "SendMessage":"So far you have &4&l[nelson_count] logs.",
+      "SendMessage":"&c&l[name]>&f So far you've gotten &4&l[nelson_count] logs.",
         "Wait":30,
 
   "Skip": "TalktoNelson",
@@ -193,9 +193,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 8,
+    "RandomOption": 7,
     "Dummy": [],
-    "Skip": "AcaciaNoInsult",
     "Skip": "AcaciaNoInsult",
     "Skip": "AcaciaNoInsult",
     "Skip": "AcaciaNoInsult",
@@ -214,7 +213,7 @@
         "Wait":30,
       "SendMessage": "&c&l[name]>&f Go get &4&l32 Acacia Logs&f, it blends in but you can find it.",
         "Wait":30,
-      "SendMessage":"So far you have &4&l[nelson_count] logs.",
+      "SendMessage":"&c&l[name]>&f So far you've gotten &4&l[nelson_count] logs.",
           "Wait":30,
 
   "Skip": "TalktoNelson",
@@ -247,10 +246,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 8,
+    "RandomOption": 6,
     "Dummy": [],
-    "Skip": "DarkOakNoInsult",
-    "Skip": "DarkOakNoInsult",
     "Skip": "DarkOakNoInsult",
     "Skip": "DarkOakNoInsult",
     "Skip": "DarkOakNoInsult",
@@ -268,7 +265,7 @@
         "Wait":30,
       "SendMessage": "&c&l[name]>&f Straight ahead, right next to one of those pesky Bone Snipers, you can get &4&l32 Dark Oak Logs&f there easily.",
         "Wait":30,
-      "SendMessage":"So far you have &4&l[nelson_count] logs.",
+      "SendMessage":"&c&l[name]>&f So far you've gotten &4&l[nelson_count] logs.",
           "Wait":30,
 
   "Skip": "TalktoNelson",
@@ -301,11 +298,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 8,
+    "RandomOption": 5,
     "Dummy": [],
-    "Skip": "SpruceNoInsult",
-    "Skip": "SpruceNoInsult",
-    "Skip": "SpruceNoInsult",
     "Skip": "SpruceNoInsult",
     "Skip": "SpruceNoInsult",
     "Skip": "SpruceNoInsult",
@@ -324,7 +318,7 @@
         "Wait":30,
       "SendMessage": "&c&l[name]>&f You should be able to reach a few of those trees and get &4&l32 Spruce Logs&f.",
         "Wait":30,
-      "SendMessage":"So far you have &4&l[nelson_count] logs.",
+      "SendMessage":"&c&l[name]>&f So far you've gotten &4&l[nelson_count] logs.",
           "Wait":30,
 
   "Skip": "TalktoNelson",
@@ -362,12 +356,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 8,
+    "RandomOption": 4,
     "Dummy": [],
-    "Skip": "BirchNoInsult",
-    "Skip": "BirchNoInsult",
-    "Skip": "BirchNoInsult",
-    "Skip": "BirchNoInsult",
     "Skip": "BirchNoInsult",
     "Skip": "BirchNoInsult",
     "Skip": "BirchNoInsult",
@@ -387,7 +377,7 @@
         "Wait":30,
       "SendMessage": "&c&l[name]>&f Don't worry though, you only need to collect &4&l32 Birch Logs&f, so you shouldn't be there too long.",
         "Wait":30,
-      "SendMessage":"So far you have &4&l[nelson_count] logs.",
+      "SendMessage":"&c&l[name]>&f So far you've gotten &4&l[nelson_count] logs.",
           "Wait":30,
 
   "Skip": "TalktoNelson",
@@ -422,13 +412,8 @@
     "Start":"lumber_third",
     "Dummy":[],
 
-    "RandomOption": 8,
+    "RandomOption": 3,
     "Dummy": [],
-    "Skip": "JungleNoInsult",
-    "Skip": "JungleNoInsult",
-    "Skip": "JungleNoInsult",
-    "Skip": "JungleNoInsult",
-    "Skip": "JungleNoInsult",
     "Skip": "JungleNoInsult",
     "Skip": "JungleNoInsult",
 
@@ -445,7 +430,7 @@
         "Wait":30,
       "SendMessage": "&c&l[name]>&f I get that &4&l32 Jungle Logs&f can be a lot, but it isn't too bad with a trusty axe in your hand!",
         "Wait":30,
-      "SendMessage":"So far you have &4&l[nelson_count] logs.",
+      "SendMessage":"&c&l[name]>&f So far you've gotten &4&l[nelson_count] logs.",
           "Wait":30,
 
   "Skip": "TalktoNelson",

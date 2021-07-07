@@ -3,6 +3,11 @@
   "Name":"Finding Lumber",
   "Author": "TangleFire360",
 
+    "Store": [
+      "name",
+      "Nelson"
+    ],
+
   "AllowRejoining": true,
   "NotCompleted":[],
 
@@ -18,16 +23,12 @@
     "hand":"fallen_iron_axe"
   },
 
-  "Store": [
-    "name",
-    "Nelson"
-  ],
-
   "Hide":"lumberjack",
   "InRegion":[
     2329,69,469,
     2340,73,463
   ],
+    "NotCompleted":[],
     "NotCompletedKingdom":[],
     "Wait":10,
     "Show":"lumberjack",
@@ -457,5 +458,6 @@
     "finding_lumber_rewards"
   ],
 
+  "Completed":[],
   "CompleteKingdomQuest":[]
 }

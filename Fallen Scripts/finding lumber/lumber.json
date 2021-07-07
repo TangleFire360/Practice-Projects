@@ -456,8 +456,6 @@
   "Start": [
     "finding_lumber_rewards"
   ],
-  "Wait":40,
 
-  "Hide":"lumberjack",
   "CompleteKingdomQuest":[]
 }

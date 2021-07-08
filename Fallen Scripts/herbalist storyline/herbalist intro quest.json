@@ -1,12 +1,13 @@
 {
   "Key": "garden_troubles",
     "Name": "&aGarden Trouble",
-  "Description": "",
+  "Description": "Help Maggie, the Fallen Kingdom Herbalist, rebuild her garden after a recent raid.",
     "Author": "TangleFire360",
   "Quest": true,
     "Icon": {
       "material": "potato"
     },
+  "HasKingdomBuilding":["farm",3],
 
   "Store": [
     "name",
@@ -26,52 +27,33 @@
     "2035, 22, 621"
   ],
 
-  "Dialog": [
-    {
-      "&d&lWillie B.": "The last raid was a rough one, and it seems that some people had property get destroyed in the attack.",
-      "&d&lWillie B.": "We’ve seen most of them rebuilding, but the herbalist, &5&l[name]&f, doesn’t seem to have enough time.",
-      "&d&lWillie B.": "On the way to work this morning, I saw a huge chunk of her garden in ashes.",
-      "&d&lWillie B.": "Do you mind checking up on her at &c&l[location]&f to see if she wants some help?"
-    },
-    false
-  ],
-  "SendMessageOptions": ["&2&lSure","&c&lNah"],
-  "Skip": "Yes",
-  "Skip": "No",
-
-
-  "Comment": "No",
-  "Dialog": [
-    {
-      "&d&lWillie B.": "Well, I had hoped you could help [name], since she does so much to help the people here.",
-      "&d&lWillie B.": "I guess I’ll find someone else then."
-    },
-    false
-  ],
-  "Wait": 1,
-  "Leave": [],
-
-  "Comment": "Yes",
-  "HighlightClickEntity": "herbalist",
-  "Wait": 1,
 
   "Dialog": [
     {
       "&5&l[name]": "Oh sorry, but I’m out of-",
       "&5&l[name]": "Wait a second, you’re not here for any medicine?",
-      "&5&l[name]": "Willie sent you to help me with my garden?",
+      "&5&l[name]": "You're here to help me with my garden?",
       "&5&l[name]": "That’s fantastic! I could really use the help.",
       "&5&l[name]": "Believe it or not, the biggest part of my garden that got destroyed was the part with my potatoes in it.",
       "&5&l[name]": "Do you mind bringing me &c&l64 potatoes&f?"
     },
     false
   ],
-  "Hold": [],
-  "Wait": 1,
 
+  "Comment":"Potatoloop",
   "HighlightClickEntity": "herbalist",
-  "Wait": 1,
 
+  "If":[],
+  "HasBalance":["currency_potato", 64],
+  "Skip":"Enoughpotatoes",
+  "Dummy":[],
+
+
+
+
+
+  "Comment":"Enoughpotatoes",
+  "RemoveBalance":["currency_potato", 64],
   "Dialog":[
     {
       "&5&l[name]": "Ah, thank you!",
@@ -82,12 +64,21 @@
     },
     false
   ],
-  "Hold": [],
-  "Wait": 1,
 
+  "Comment":"Sugarcaneloop",
   "HighlightClickEntity": "herbalist",
-  "Wait": 1,
 
+  "If":[],
+  "HasBalance":["currency_sugarcane", 96],
+  "Skip":"Enoughsugarcane",
+  "Dummy":[],
+
+
+
+
+
+  "Comment":"Enoughsugarcane",
+  "RemoveBalance":["currency_sugarcane", 96],
   "Dialog": [
     {
       "&5&l[name]": "Good job, this is plenty for both sugar and a start to a new sugarcane patch in the garden.",
@@ -98,12 +89,17 @@
     },
     false
   ],
-  "Hold": [],
-  "Wait": 1,
 
-  "HighlightClickEntity": "herbalist",
-  "Wait": 1,
+  "If":[],
+  "HasBalance":["currency_sweet_berry", 128],
+  "Skip":"Enoughberries",
+  "Dummy":[],
 
+
+
+
+  "Comment":"Enoughberries",
+  "RemoveBalance":["currency_sweet_berry", 128],
   "Dialog": [
     {
       "&5&l[name]": "You got them!",
@@ -123,7 +119,7 @@
     },
     false
   ],
-  "Hold": [],
+  "Start": "herbalist_intro_rewards",
   "Wait": 1,
 
   "CompleteKingdomQuest": []

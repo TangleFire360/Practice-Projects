@@ -5,7 +5,7 @@
     "Author": "TangleFire360",
   "Quest": true,
     "Icon": {
-      "material": "potato"
+      "material": "iron_hoe"
     },
   "HasKingdomBuilding":["farm",3],
 
@@ -44,26 +44,44 @@
   "HighlightClickEntity": "herbalist",
 
   "If":[],
+  "HasBalance":["currency_potato", ">=",1],
+  "Dummy":[],
+  "Skip":"Nopotatoesatall",
+
+  "If":[],
   "HasBalance":["currency_potato", 64],
   "Skip":"Enoughpotatoes",
   "Dummy":[],
 
+  "Dialog":[
+    {
+      "&5&l[name]":"I see you’ve gotten some potatoes, but I needed &c&l64 Potatoes&f."
+    }
+  ],
+  "Skip":"Potatoloop",
 
-
-
+  "Comment":"Nopotatoesatall",
+  "Dialog":[
+    {
+      "&5&l[name]":"Um, did you bring any potatoes? I don’t see any...",
+      "&5&l[name]":"I asked for &c&l64 Potatoes&f."
+    }
+  ],
+  "Skip":"Potatoloop",
 
   "Comment":"Enoughpotatoes",
   "RemoveBalance":["currency_potato", 64],
   "Dialog":[
     {
       "&5&l[name]": "Ah, thank you!",
-      "&5&l[name]": "While you were out, I was looking through my stores of medicine and noticed that all the sugar is gone",
+      "&5&l[name]": "While you were out, I was looking through my stores of medicine and noticed that all the sugar was gone",
       "&5&l[name]": "I use it to help make some of my medicines a little more pleasant for children, or they wouldn’t take them like they should.",
       "&5&l[name]": "Normally I grow some sugarcane in my garden...but it’s still quite messy right now.",
       "&5&l[name]": "If you could get me &c&l96 Sugarcane&f I can start to replenish my supply."
     },
     false
   ],
+
 
   "Comment":"Sugarcaneloop",
   "HighlightClickEntity": "herbalist",
@@ -73,9 +91,14 @@
   "Skip":"Enoughsugarcane",
   "Dummy":[],
 
-
-
-
+  "Dialog":[
+    {
+      "&5&l[name]":"So uh….this isn’t enough.",
+      "&5&l[name]":"I need enough to plant &oand&r make sugar from.",
+      "&5&l[name]":"Surely you can find &c&l96 Sugarcane&f?"
+    }
+  ],
+  "Skip":"Sugarcaneloop",
 
   "Comment":"Enoughsugarcane",
   "RemoveBalance":["currency_sugarcane", 96],
@@ -85,18 +108,42 @@
       "&5&l[name]": "Say, you’ve helped me out a lot, but can I ask for one more favor?",
       "&5&l[name]": "I use the juice of sweet berries for some of my concoctions as well.",
       "&5&l[name]": "My berry bushes are still intact, but I’ve used all my berries for medicine.",
-      "&5&l[name]": "Get me &c&l128 sweet berries&f and then I should be all caught up!"
+      "&5&l[name]": "Get me &c&l128 Sweet Berries&f and then I should be all caught up!"
     },
     false
   ],
+
+  "Comment":"Berryloop",
+  "HighlightClickEntity":"herbalist",
+
+  "If":[],
+  "HasBalance":["currency_sweet_berry", ">=",1],
+  "Dummy":[],
+  "Skip":"Noberriesatall",
 
   "If":[],
   "HasBalance":["currency_sweet_berry", 128],
   "Skip":"Enoughberries",
   "Dummy":[],
 
+  "Dialog":[
+    {
+      "&5&l[name]":"Well, this is kinda close...",
+      "&5&l[name]":"However this won’t be enough to completely restock.",
+      "&5&l[name]":"I needed &c&l128 Sweet Berry&f to finish up."
+    }
+  ],
+  "Skip":"Berryloop",
 
-
+  "Comment":"Noberriesatall",
+  "Dialog":[
+    {
+      "&5&l[name]":"Huh, well I guess I asked for something too hard for you to get.",
+      "&5&l[name]":"You can get sweet berries from Billy if you have &c&lFarm Level 3&f.",
+      "&5&l[name]":"Remember, I need &c&l128 Sweet Berries&f to get things back in order!"
+    }
+  ],
+  "Skip":"Berryloop",
 
   "Comment":"Enoughberries",
   "RemoveBalance":["currency_sweet_berry", 128],
@@ -115,12 +162,15 @@
   "Dialog": [
     {
       "&5&l[name]": "Well, I'll remember to ask for you if I need help again sometime.",
-      "&5&l[name]": "Oh, and since it's dangerous to go alone out there, take this!"
+      "&5&l[name]": "Oh, and before I forget, can you hold on to this really for now?",
+      "&5&l[name]": "It keeps getting in my way sitting around here, but I don't have time to return it right now."
     },
     false
   ],
   "Start": "herbalist_intro_rewards",
   "Wait": 1,
+
+  "SendMessage": "&5&l[name]&f Why do I have an axe laying around my shop? Well, my little brother came to trim a tree for me and left it behind by accident.",
 
   "CompleteKingdomQuest": []
 

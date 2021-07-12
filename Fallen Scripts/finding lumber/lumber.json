@@ -23,12 +23,14 @@
   },
 
   "Hide":"lumberjack",
+  "PlayerJoin":[],
+  "NotCompletedKingdom":[],
   "InRegion":[
     2329,69,469,
     2340,73,463
   ],
-    "NotCompletedKingdom":[],
-    "Wait":1,
+
+    "Wait":10,
     "Show":"lumberjack",
 
   "HighlightClickEntity": "lumberjack",

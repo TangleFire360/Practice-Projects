@@ -44,7 +44,7 @@
   "HighlightClickEntity": "herbalist",
 
   "If":[],
-  "HasBalance":["currency_potato", ">=",1],
+  "HasBalance":["currency_potato",1],
   "Dummy":[],
   "Skip":"Nopotatoesatall",
 
@@ -117,7 +117,7 @@
   "HighlightClickEntity":"herbalist",
 
   "If":[],
-  "HasBalance":["currency_sweet_berry", ">=",1],
+  "HasBalance":["currency_sweet_berry", 1],
   "Dummy":[],
   "Skip":"Noberriesatall",
 

@@ -9,7 +9,6 @@
     ],
 
   "AllowRejoining": true,
-  "NotCompleted":[],
 
   "CreateEntity": {
     "key": "lumberjack",

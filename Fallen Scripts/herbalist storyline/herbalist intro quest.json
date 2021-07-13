@@ -17,7 +17,10 @@
   "CreateEntity": {
     "key":"herbalist",
     "name": ["&5&lMaggie","&8&oFallen Kingdom Herbalist"],
-    "skin": "fallen_farmer",
+    "skin": [
+      "texture":"ewogICJ0aW1lc3RhbXAiIDogMTYyNjEzNjU3MzgyMSwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5NjEzYzQxZDYxYTE1ZWQ4NDVhMWNhNTI0MzFiZTM5OWI3OWFiYjY3ODRlMDEzM2UyMGFhYWVjYThhM2U1OWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+      "signature":"O0/YZxL2tn+47sQCPwD6YwCAzTpKjYd60v6f2Xa34A2nrCFTbTLtHchUeU1c8tqF+BWSfWTxjVXLWDHgnhuzKl7muQv7rwVq809OCbpAF9EwbF7GnGY87UHsOnmzziPklpKRm8t8qkh+gjebj9sxcd7TDXEmpFtLz+EucpymDfwDxQ0ntGTQyKUy3c2ZXTrf2GC+RhuRnghSN1VGIKTYGsaZBROZRotalR5GY8OqCr/WdpjFTtfq3JUTE7Y/MqX4kE3ozwmBxvp6oAlLdMRPSeyrFKa8k/p5Z90tJ1LabIW/KT/IOepPwf7Cc7ctucVf0ZR0y38MvllfFFMm1+esTJjWbkc+zHC9Z2C3PJ/Uz7yZe51dBBH8uWSdiWL5FrrDm0/9CqMiPclK8t6wHeB1eAVtmWHZ+c1Gyg5RlGz6C6iKOXNusvcP2QlGyJiYHeu54A7TsoT521imSizr/gc07B5hj+Jh/VyY4oQotH2EuNI5NtkEINOQ+M+aKIySMCNMLuasBvUY2Co3HKw54m/kupnuAgEinV9DoDYjLQauWljlq7jRmOUrP78ATiqNMwbDv9ZYylcU174h12bc7bg8HoZEQkaRRG+1+Rhyk59tDYtfyMEXsvEIpjf5/YXzkQkvbgO+xvT9sizz2BmtvISP30aSyzVoqZXVLopqwn+MsSM="
+    ],
     "location": [2035.5,22.0,621.5,-179],
     "global": false
   },

@@ -1,6 +1,12 @@
 {
   "Key":"herbalist_intro_rewards",
   "GiveItem":[],
-  "GiveItem":[],
+  "GiveItem":[
+    "material":"paper",
+    
+    "name": "&cNelson's Axe",
+    "description":["Nelson's favorite axe, he forgot it at his sister's shop.","","&b&oQuest Item"],
+    "amount": 1
+  ],
   "Comment":"make the second GiveItem give an iron axe called 'Nelson's Axe' and name it a quest item"
 }

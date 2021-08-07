@@ -174,6 +174,7 @@
   "Wait": 1,
 
   "SendMessage": "&5&l[name]&f Why do I have an axe laying around my shop? Well, my little brother came to trim a tree for me and left it behind by accident.",
+  "SendMessage": "&5&l[name]&f Say, you've met my brother right? Why don't you give it to him next time you see him?",
 
   "CompleteKingdomQuest": []
 
